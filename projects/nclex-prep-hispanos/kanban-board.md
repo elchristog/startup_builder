@@ -86,12 +86,11 @@
 
 ---
 
-### 🔵 ETAPA 3C: CUSTOMER JOURNEY END-TO-END (GATE 3C - 🟢 DESBLOQUEADO PARA CPO)
-- [ ] `[TASK-CPO-01]` **Mapeo del Customer Journey End-to-End:** Diseñar la experiencia del usuario desde el primer toque hasta la retención.  
+### 🔵 ETAPA 3C: CUSTOMER JOURNEY END-TO-END (GATE 3C - 🔍 EN REVISIÓN CPO / CEO)
+- [/] `[TASK-CPO-01]` **Mapeo del Customer Journey End-to-End:** Diseñar la experiencia del usuario desde el primer toque hasta la retención.  
   - **Asignado a:** `@cpo`  
   - **Revisar por:** `@cpo` / `@ceo`  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/customer-journey-end-to-end.md`  
-
 
 ---
 
@@ -119,7 +118,8 @@
 
 ## 🔍 4. En Revisión (In Review)
 
-*(Sin tareas actualmente en revisión)*
+- [/] `[TASK-CPO-01]` **Mapeo del Customer Journey End-to-End:** Especificación de 7 etapas de experiencia del usuario (Discovery, Lead, Onboarding, First Practice, Paywall, Retention D30/D90, NCLEX Exam Day), mapa de fricciones y KPIs de usabilidad en `projects/nclex-prep-hispanos/funnel/customer-journey-end-to-end.md`. (Asignado a `@cpo`, Pendiente visto bueno de `@cpo` / `@ceo`)
+
 
 ---
 

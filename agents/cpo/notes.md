@@ -3,13 +3,16 @@
 [Proyecto: nclex-prep-hispanos]
 
 ## 📌 Aprobaciones C-Level & Directrices de Producto
-- ✅ **Etapa 2E (Sistema de Diseño & Branding - APROBADO):** Visto bueno otorgado a `projects/nclex-prep-hispanos/funnel/design-system-and-branding.md`.
-- ✅ **Etapa 2F (Ingeniería de Prompt para Logo IA - APROBADO):** Visto bueno otorgado a `projects/nclex-prep-hispanos/funnel/logo-ai-prompt.md`.
-  - **Isotipo:** Metáfora bilingüe impecable (estetoscopio + escudo bilingüe + checkmark NGN).
-  - **Prompts Generativos:** Verificados parámetros Midjourney v6 (`--style raw`), DALL-E 3 e Imagen 3.
-  - **Specs ASO:** 512x512 px PNG, radio squircle de 20%, cero letras para alta densidad de descarga en Google Play.
+- ✅ **Etapa 2E (Sistema de Diseño & Branding):** Aprobado `design-system-and-branding.md`.
+- ✅ **Etapa 2F (Ingeniería de Prompt para Logo IA):** Aprobado `logo-ai-prompt.md`.
+- 🔍 **Etapa 3C (Customer Journey End-to-End - EN REVISIÓN):** Persistido `projects/nclex-prep-hispanos/funnel/customer-journey-end-to-end.md`.
+  - **Persona:** María Elena (Enfermera de Colombia homologando en Florida).
+  - **7 Etapas:** Discovery, Lead Capture & Deep Link PlayStore, Onboarding Dual, First Practice Session 10Q NGN, Paywall Conversion ($29/mes), Daily Habit & Retención D30/D90, NCLEX Exam Day.
+  - **Mapa de Fricciones & Mitigaciones:** Solución a traducción rígida, abandono en trial, churn D30 y temores de pago.
+  - **KPIs:** Retención D1 55%, D30 38%, D90 28%, NPS > 65.
 
-## 📢 Próximas Asignaciones de Producto & Técnica
-- **@web-specialist / @cto:** Habilitada la Etapa 3A (`[TASK-ASTRO-01]`) para diseñar la especificación de arquitectura web en Astro (`astro-architecture-spec.md`).
+## 📢 Estado Kanban
+- **Tarea `[TASK-CPO-01]`:** Ubicada en **`4. En Revisión (In Review)`** para la aprobación ejecutiva del CPO / CEO.
+
 
 
