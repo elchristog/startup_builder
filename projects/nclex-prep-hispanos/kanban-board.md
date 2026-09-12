@@ -53,16 +53,17 @@
 
 ---
 
-### 🟢 ETAPA 2E: PALETA DE COLORES & BRANDING (GATE 2E - 🔍 EN REVISIÓN CPO)
-- [/] `[TASK-BRAND-01]` **Sistema de Diseño, Paleta de Colores & UI Tokens:** Definir colores HSL/Hex, tipografías y estética.  
+### 🟢 ETAPA 2E: PALETA DE COLORES & BRANDING (GATE 2E - COMPLETADO)
+- [x] `[TASK-BRAND-01]` **Sistema de Diseño, Paleta de Colores & UI Tokens:** Definir colores HSL/Hex, tipografías y estética.  
   - **Asignado a:** `@ux-designer`  
-  - **Revisar por:** `@cpo`  
+  - **Aprobado por:** `@cpo` el 2026-09-12  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/design-system-and-branding.md`  
+
 
 ---
 
-### 🟡 ETAPA 2F: PROMPT DE LOGO CON IA (GATE 2F - 🔒 BLOQUEADO POR 2E)
-- [ ] `[TASK-LOGO-01]` **Ingeniería de Prompt para Generación de Logo con IA:** Redactar el prompt exacto para el logo e icono de app.  
+### 🟢 ETAPA 2F: PROMPT DE LOGO CON IA (GATE 2F - ACTIVO / EN EJECUCIÓN)
+- [/] `[TASK-LOGO-01]` **Ingeniería de Prompt para Generación de Logo con IA:** Redactar el prompt exacto para el logo e icono de app.  
   - **Asignado a:** `@ux-designer`  
   - **Revisar por:** `@cpo`  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/logo-ai-prompt.md`  
@@ -111,14 +112,13 @@
 
 ## 🏃 3. En Progreso (In Progress)
 
-*(Sin tareas activas actualmente en progreso)*
+- [/] `[TASK-LOGO-01]` **Ingeniería de Prompt para Generación de Logo con IA:** Redactar especificación de prompt IA e icono ASO en `projects/nclex-prep-hispanos/funnel/logo-ai-prompt.md`. (Asignado a `@ux-designer`)
 
 ---
 
 ## 🔍 4. En Revisión (In Review)
 
-- [/] `[TASK-BRAND-01]` **Sistema de Diseño, Paleta de Colores & UI Tokens:** Especificación de tokens HSL, escala Outfit/Inter y componentes en `projects/nclex-prep-hispanos/funnel/design-system-and-branding.md`. (Asignado a `@ux-designer`, Pendiente visto bueno de `@cpo`)
-
+*(Sin tareas actualmente en revisión)*
 
 ---
 
@@ -131,4 +131,6 @@
 - [x] `[TASK-MACRO-01]` **Estudio de Entorno Macroeconómico, Regulaciones & Industria:** Análisis PESTEL, visas EB-3, NGN y poder adquisitivo en `projects/nclex-prep-hispanos/macro-analysis.md`. (Completado por: `@macro-analyst`, Aprobado por: `@cfo` / `@ceo` el 2026-09-12)
 - [x] `[TASK-SEO-02]` **Definición de Arquitectura SEO Transaccional Web:** Jerarquía de URLs, silos transaccionales, schema.org y sitemap en `projects/nclex-prep-hispanos/funnel/seo-transactional-architecture.md`. (Completado por: `@seo-specialist`, Aprobado por: `@cmo` el 2026-09-12)
 - [x] `[TASK-DOMAIN-01]` **Selección & Persistencia del Dominio Web:** Portafolio oficial (`simunclex.com`, `simunclex.app`, `nclexbilingue.com`) y DNS spec en `projects/nclex-prep-hispanos/funnel/domain-strategy.md`. (Completado por: `@seo-specialist`, Aprobado por: `@cmo` el 2026-09-12)
+- [x] `[TASK-BRAND-01]` **Sistema de Diseño, Paleta de Colores & UI Tokens:** Especificación HSL, escala Outfit/Inter y tarjetas NGN en `projects/nclex-prep-hispanos/funnel/design-system-and-branding.md`. (Completado por: `@ux-designer`, Aprobado por: `@cpo` el 2026-09-12)
+
 
