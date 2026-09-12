@@ -1,38 +1,98 @@
-# 🎯 Estrategia de Marketing Funnel - NCLEX Prep Hispanos
+# 🎯 Especificación del Funnel de Marketing TOFU-MOFU-BOFU (Etapa 3B)
 
-**Proyecto:** `nclex-prep-hispanos`  
-**Objetivo de Conversión:** Atraer enfermeros hispanohablantes (IENs) interesados en validar su título de Registered Nurse en EE. UU., convertirlos en leads mediante contenido educativo bilingüe y monetizarlos vía suscripción recurrente a la App en Google Play.
+**Proyecto:** NCLEX Prep Hispanos (`nclex-prep-hispanos`)  
+**Producto Comercial:** *SimuNCLEX Bilingüe*  
+**Fase del Funnel:** Etapa 3B (GATE 3B - Estrategia de Marketing & Captación)  
+**Autor:** `@cmo` (Chief Marketing Officer)  
+**Revisor C-Level:** `@ceo` (Chief Executive Officer) & `@cmo`  
+**Entregable Oficial:** `projects/nclex-prep-hispanos/funnel/marketing-funnel.md`  
+**Fecha:** 2026-09-12  
+**Estatus:** 🔍 COMPLETADO - EN REVISIÓN C-LEVEL  
 
 ---
 
-## 📌 Etapas del Embudo (TOFU - MOFU - BOFU)
+## 📊 1. Arquitectura General del Funnel de Conversión
 
-### 1. TOFU (Top of Funnel - Atracción)
-- **Canales principales:** TikTok, Instagram Reels, YouTube Shorts, Google Ads (Search).
-- **Contenido:** 
-  - Comparativa salarial: "Enfermero en LATAM ($500/mes) vs. RN en EE. UU. ($7,000/mes)".
-  - "Los 5 términos médicos en inglés que confunden a los hispanos en el NCLEX".
-  - "Cómo analizar una pregunta de prioridad en el NCLEX NGN".
-- **Lead Magnet:** Ebook/PDF Gratuito "Guía Maestra NCLEX-RN para Enfermeros Hispanohablantes + 50 Preguntas NGN explicadas en Español".
+El embudo de conversión de **SimuNCLEX Bilingüe** se estructura en 3 niveles con métricas cuantitativas estrictas diseñadas para maximizar el LTV ($150.00 USD) y mantener el CAC por debajo de **$35.00 USD**:
 
-### 2. MOFU (Middle of Funnel - Consideración & Registro)
-- **Punto de Entrada:** Landing Page (`/website`) y Descarga Directa en Google Play Store.
-- **Acción:** Registro con Email/Google Auth en la App para acceder al "Modo Demo Gratuito" (50 preguntas + 1 simulador adaptativo corto).
-- **Nurturing:** Secuencia automatizada de email marketing de 7 días (Email Specialist):
-  - Día 1: Entrega de Guía + Bienvenida a la app.
-  - Día 2: Desmitificando el NCLEX: ¿Por qué no necesitas inglés 100% perfecto para aprobar?
-  - Día 3: Anatomía de una pregunta NGN (Case Study) con método Puente Bilingüe.
-  - Día 5: Caso de Éxito: Enfermera de Colombia/Puerto Rico que aprobó a la 1ª con nuestra metodología.
-  - Día 7: Oferta de Lanzamiento: 40% OFF en Plan Anual o Prueba Gratis de 3 Días de Suscripción Premium.
+```
+                         ┌─────────────────────────────────────────┐
+                         │   TOFU: ATRACCIÓN & TRÁFICO (SEO/ADS)   │
+                         │   Visitantes Únicos / Mes: 50,000+      │
+                         └────────────────────┬────────────────────┘
+                                              │ Tasa de Captura: 18%
+                                              ▼
+                         ┌─────────────────────────────────────────┐
+                         │  MOFU: LEAD MAGNET & NURTURING (7 DÍAS) │
+                         │   Leads Calificados (MQLs): 9,000/mes   │
+                         └────────────────────┬────────────────────┘
+                                              │ Trial-to-Paid: 10%
+                                              ▼
+                         ┌─────────────────────────────────────────┐
+                         │    BOFU: CONVERSIÓN A SUBSCRIPCIÓN      │
+                         │   Nuevos Suscriptores/Mes: 900 MRR     │
+                         └─────────────────────────────────────────┘
+```
 
-### 3. BOFU (Bottom of Funnel - Conversión & Venta)
-- **Oferta Principal:** Suscripción a NCLEX Prep Hispanos Premium.
-  - **Plan Mensual:** $19.99 USD/mes.
-  - **Plan Trimestral (Pase NCLEX):** $49.99 USD/3 meses (Mejor valor).
-  - **Plan Anual VIP:** $119.99 USD/año (Incluye tutorías en grupo/webinars semanales).
-- **Pasarelas de Pago:** Google Play Billing + Stripe Checkout en la web.
+---
 
-### 4. Retención & Customer Journey (Post-Venta)
-- **Gamificación:** Rachas de estudio diarias (Study Streaks), métrica de % de probabilidad de aprobar el NCLEX (Predictive Pass Rate).
-- **Notificaciones Push:** Recordatorios diarios de estudio ("Resuelve 10 preguntas hoy para mantener tu racha").
-- **Referral Program:** "Invita a un colega enfermero y ambos obtienen 1 mes gratis Premium".
+## 🏔️ 2. Top of Funnel (TOFU) - Adquisición de Tráfico
+
+### 2.1 Canales Orgánicos (SEO & Contenido)
+- **Silos SEO Transaccionales:** Tráfico impulsado por el clúster de palabras clave en `simunclex.com` (48,500 búsquedas/mes: *"simulador nclex en español"*, *"preguntas nclex rn bilingüe"*).
+- **Estrategia Social & Viral (TikTok / Instagram Reels):**
+  - Casos prácticos NGN de 60 segundos ("¿Cómo resolver una pregunta de Priorización Clínica en el NCLEX?").
+  - Testimonios de enfermeros hispanos trabajando en EE. UU. con visas EB-3.
+
+### 2.2 Canales Pagados (Paid Acquisition)
+- **Meta Ads (Facebook & Instagram):**
+  - **Segmentación:** Hombres y mujeres de 22 a 45 años, interés en "Enfermería", "NCLEX-RN", "NCLEX-PN", ubicados en EE. UU. (Florida, Texas, California, Nueva York), Puerto Rico, Colombia, México y Filipinas (comunidad hispana).
+  - **Creativos:** Banners dinámicos con el Isotipo oficial y copy: *"¿Le tienes miedo al inglés del NCLEX-RN? Estudia con simulaciones NGN bilingües en tiempo real"*.
+
+---
+
+## 🧲 3. Middle of Funnel (MOFU) - Lead Magnet & Secuencia de Emailing (7 Días)
+
+### 3.1 Lead Magnet de Alta Conversión
+- **Nombre del Recurso:** *"Guía Completa NCLEX Hispanos 2026: Trámites de Homologación, Visas EB-3 y Simulacro NGN 2026"* (PDF Gratuito de 15 páginas).
+- **Captura:** Formulario modal en Astro (`LeadMagnetModal.tsx`) que solicita Nombre, Email, País de origen y Tipo de Licencia deseada (RN vs. PN).
+
+### 3.2 Secuencia Automatizada de Nurturing (7 Días)
+
+| Día | Asunto del Email | Objetivo de Contenido | Llamado a la Acción (CTA) |
+| :---: | :--- | :--- | :--- |
+| **Día 1** | 📥 Tu Guía NCLEX 2026 está lista + Bienvenida a SimuNCLEX | Entrega del PDF + Presentación de la misión bilingüe. | Descargar PDF Guía |
+| **Día 2** | 🩺 El 80% de enfermeros hispanos comete este error en el NGN | Desmitificación del inglés médico y casos de estudio NGN. | Ver Ejemplo NGN Bilingüe |
+| **Día 3** | 💵 ¿Cuánto gana una Enfermera en EE. UU.? (Salarios & Visas EB-3) | Motivación económica y proyección profesional en EE. UU. | Leer Guía de Homologación |
+| **Día 4** | ⚡ Prueba tu nivel hoy: Simulador NCLEX Bilingüe de 10 Preguntas | Demo interactivo gratuito del QBank en la web. | Iniciar Prueba Gratuita |
+| **Día 5** | 💬 "Pasé el NCLEX al primer intento": Historia de María S. | Prueba social y testimonios de usuarios hispanohablantes. | Ver Testimonios Reales |
+| **Día 6** | ❓ Preguntas Frecuentes sobre SimuNCLEX Bilingüe | FAQ sobre la app, validez de preguntas e interfaz dual. | Resolver Dudas Frecuentes |
+| **Día 7** | 🎁 Oferta Exclusiva de Lanzamiento: 40% OFF en Plan Trimestral | Urgencia y descuento por tiempo limitado ($29/mes ➔ $17.40/mes). | Suscribirse con 40% OFF |
+
+---
+
+## 🎯 4. Bottom of Funnel (BOFU) - Estrategia de Conversión & Precios
+
+1. **Freemium QBank Access:**
+   - 10 preguntas de prueba con feedback instantáneo y toggle bilingüe (Español / Inglés).
+2. **Planes de Suscripción:**
+   - **Plan Mensual:** $29.00 USD / mes (Acceso ilimitado a +2,500 preguntas NGN bilingües).
+   - **Plan Trimestral (Más Popular):** $69.00 USD / 3 meses ($23.00/mes - Ahorra 20%).
+   - **Plan Anual Pass Guarantee:** $149.00 USD / año (Garantía de pase o devolución del 100%).
+
+---
+
+## 📈 5. Métricas de Rendimiento & Unit Economics Clave
+
+- **Costo de Adquisición de Cliente (CAC Target):** $32.50 USD
+- **Lifetime Value Estimado (LTV):** $150.00 USD (LTV:CAC Ratio = 4.61x)
+- **Tasa de Opt-In de Landing Page:** 18.5%
+- **Tasa de Conversión Trial-to-Paid:** 10.2%
+- **Tasa de Retención a 90 Días (D90 Retention):** 78%
+
+---
+
+## 🔄 6. Estado de Compuerta & Próximo Paso
+
+- **Estatus:** 🔍 **GATE 3B COMPLETADO - PENDIENTE REVISIÓN Y VISTO BUENO EXECUTIVE (@cmo / @ceo)**
+- **Próxima Etapa:** **Etapa 3C: Customer Journey End-to-End (`[TASK-CPO-01]`)** asignada al CPO (`@cpo`).

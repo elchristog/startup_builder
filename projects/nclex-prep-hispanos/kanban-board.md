@@ -78,7 +78,7 @@
 
 ---
 
-### 🔵 ETAPA 3B: FUNNEL DE MARKETING (GATE 3B - ACTIVO / EN EJECUCIÓN)
+### 🔵 ETAPA 3B: FUNNEL DE MARKETING (GATE 3B - 🔍 EN REVISIÓN CMO / CEO)
 - [/] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU:** Diseñar las etapas de captación, ofertas y secuencias.  
   - **Asignado a:** `@cmo`  
   - **Revisar por:** `@cmo` / `@ceo`  
@@ -112,13 +112,14 @@
 
 ## 🏃 3. En Progreso (In Progress)
 
-- [/] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU:** Estrategia TOFU-MOFU-BOFU, lead magnets y secuencias de email nurturing en `projects/nclex-prep-hispanos/funnel/marketing-funnel.md`. (Asignado a `@cmo`)
+*(Sin tareas activas actualmente en progreso)*
 
 ---
 
 ## 🔍 4. En Revisión (In Review)
 
-*(Sin tareas actualmente en revisión)*
+- [/] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU:** Estrategia TOFU-MOFU-BOFU, lead magnet PDF y email nurturing de 7 días en `projects/nclex-prep-hispanos/funnel/marketing-funnel.md`. (Asignado a `@cmo`, Pendiente visto bueno de `@cmo` / `@ceo`)
+
 
 ---
 
