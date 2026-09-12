@@ -102,8 +102,8 @@
 
 ---
 
-### 🟢 ETAPA 5: BIGQUERY & ANALYTICS PIPELINE (GATE 5 - 🟢 DESBLOQUEADO PARA INTEGRACIÓN)
-- [ ] `[TASK-DB-01]` **Pipeline BigQuery & Tracking de Conversión:** Crear tablas y vistas de retención temporal.  
+### 🟢 ETAPA 5: BIGQUERY & ANALYTICS PIPELINE (GATE 5 - 🔍 EN REVISIÓN CTO / CFO)
+- [/] `[TASK-DB-01]` **Pipeline BigQuery & Tracking de Conversión:** Crear tablas y vistas de retención temporal.  
   - **Asignado a:** `@api-integration-specialist`  
   - **Revisar por:** `@cto` & `@cfo`  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/database/schema-and-dictionary.md`  
@@ -118,7 +118,8 @@
 
 ## 🔍 4. En Revisión (In Review)
 
-*(Sin tareas actualmente en revisión)*
+- [/] `[TASK-DB-01]` **Pipeline BigQuery & Tracking de Conversión:** Especificación DDL SQL de 5 tablas Core (`users`, `sessions`, `qbank_answers`, `paywall_events`, `subscriptions`), diccionario de datos y vistas analíticas de cohortes de retención y embudo en `projects/nclex-prep-hispanos/database/schema-and-dictionary.md`. (Asignado a: `@api-integration-specialist`, Pendiente visto bueno de `@cto` & `@cfo`)
+
 
 ---
 
