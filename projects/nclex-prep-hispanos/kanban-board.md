@@ -62,16 +62,16 @@
 
 ---
 
-### 🟢 ETAPA 2F: PROMPT DE LOGO CON IA (GATE 2F - 🔍 EN REVISIÓN CPO)
-- [/] `[TASK-LOGO-01]` **Ingeniería de Prompt para Generación de Logo con IA:** Redactar el prompt exacto para el logo e icono de app.  
+### 🟢 ETAPA 2F: PROMPT DE LOGO CON IA (GATE 2F - COMPLETADO)
+- [x] `[TASK-LOGO-01]` **Ingeniería de Prompt para Generación de Logo con IA:** Redactar el prompt exacto para el logo e icono de app.  
   - **Asignado a:** `@ux-designer`  
-  - **Revisar por:** `@cpo`  
+  - **Aprobado por:** `@cpo` el 2026-09-12  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/logo-ai-prompt.md`  
 
 ---
 
-### 🔵 ETAPA 3A: ESPECIFICACIÓN TÉCNICA WEB EN ASTRO (GATE 3A - 🔒 BLOQUEADO POR 2F)
-- [ ] `[TASK-ASTRO-01]` **Especificación & Arquitectura de la Web en Astro:** Definir componentes, rutas y optimización de carga.  
+### 🔵 ETAPA 3A: ESPECIFICACIÓN TÉCNICA WEB EN ASTRO (GATE 3A - ACTIVO / EN EJECUCIÓN)
+- [/] `[TASK-ASTRO-01]` **Especificación & Arquitectura de la Web en Astro:** Definir componentes, rutas y optimización de carga.  
   - **Asignado a:** `@web-specialist` / `@cto`  
   - **Revisar por:** `@cto`  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/website/astro-architecture-spec.md`  
@@ -112,14 +112,13 @@
 
 ## 🏃 3. En Progreso (In Progress)
 
-*(Sin tareas activas actualmente en progreso)*
+- [/] `[TASK-ASTRO-01]` **Especificación & Arquitectura de la Web en Astro:** Estructura de componentes, layouts y optimización Core Web Vitals en `projects/nclex-prep-hispanos/website/astro-architecture-spec.md`. (Asignado a `@web-specialist` / `@cto`)
 
 ---
 
 ## 🔍 4. En Revisión (In Review)
 
-- [/] `[TASK-LOGO-01]` **Ingeniería de Prompt para Generación de Logo con IA:** Prompts Midjourney v6/DALL-E 3 e ícono ASO Google Play (512x512 px) en `projects/nclex-prep-hispanos/funnel/logo-ai-prompt.md`. (Asignado a `@ux-designer`, Pendiente visto bueno de `@cpo`)
-
+*(Sin tareas actualmente en revisión)*
 
 ---
 
@@ -133,5 +132,7 @@
 - [x] `[TASK-SEO-02]` **Definición de Arquitectura SEO Transaccional Web:** Jerarquía de URLs, silos transaccionales, schema.org y sitemap en `projects/nclex-prep-hispanos/funnel/seo-transactional-architecture.md`. (Completado por: `@seo-specialist`, Aprobado por: `@cmo` el 2026-09-12)
 - [x] `[TASK-DOMAIN-01]` **Selección & Persistencia del Dominio Web:** Portafolio oficial (`simunclex.com`, `simunclex.app`, `nclexbilingue.com`) y DNS spec en `projects/nclex-prep-hispanos/funnel/domain-strategy.md`. (Completado por: `@seo-specialist`, Aprobado por: `@cmo` el 2026-09-12)
 - [x] `[TASK-BRAND-01]` **Sistema de Diseño, Paleta de Colores & UI Tokens:** Especificación HSL, escala Outfit/Inter y tarjetas NGN en `projects/nclex-prep-hispanos/funnel/design-system-and-branding.md`. (Completado por: `@ux-designer`, Aprobado por: `@cpo` el 2026-09-12)
+- [x] `[TASK-LOGO-01]` **Ingeniería de Prompt para Generación de Logo con IA:** Prompts Midjourney v6/DALL-E 3 e ícono ASO Google Play (512x512 px) en `projects/nclex-prep-hispanos/funnel/logo-ai-prompt.md`. (Completado por: `@ux-designer`, Aprobado por: `@cpo` el 2026-09-12)
+
 
 
