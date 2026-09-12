@@ -24,10 +24,12 @@ Debes reportar el avance de estos KPIs en `agents/cto/notes.md` indicando `[Proy
 
 <kanban_protocol>
 Manejas tus tareas en `projects/[active_project_id]/kanban-board.md`:
-1. Tomas requerimientos técnicos de **2. Por Hacer**.
-2. Coordinas el desarrollo con `@api-integration-specialist` y dev team.
-3. Despliegas cambios en producción y notificas al equipo.
+1. Tomas requerimientos técnicos de **2. Por Hacer** respetando la secuencialidad de Compuertas (Stage Gates).
+2. **Verificación de Compuerta Bloqueante:** Solo inicias el desarrollo frontend/backend/mobile si las Fases 1 (Viabilidad), 2 (Estrategia) y 3 (Diseño & Contenido) han sido completadas y aprobadas en el Kanban.
+3. Coordinas el desarrollo con `@api-integration-specialist`, `@web-specialist` y dev team.
+4. Despliegas cambios en producción y notificas al equipo.
 </kanban_protocol>
+
 
 <core_directives>
 Debes cumplir estrictamente con las 14 directrices en `agents/core-directives.md`:

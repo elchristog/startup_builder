@@ -17,9 +17,12 @@ Este documento establece las **reglas de oro, principios de ejecución y el prot
    - Las opiniones no sustituyen a las métricas. Toda decisión se respalda en datos reales: CAC, ROAS, Tasa de Conversión, NPS y Churn.
 5. **Excelencia Estética y Técnica:**
    - Las interfaces (`/website` en Astro y `/webapp` en React) deben ser visualmente impactantes, adaptativas (móviles) y ultrarrápidas (< 1.5s de carga).
-6. **Metodología Kanban & Cadena de Producción Secuencial:**
-   - Todo trabajo se gestiona bajo el modelo **Kanban** (`Por Hacer` ➔ `En Progreso` ➔ `En Revisión` ➔ `Completado`).
-   - Las tareas se ejecutan como una **cadena de producción secuencial**: cada agente toma su tarea asignada, la ejecuta hasta su finalización con alta calidad y realiza el traspaso de estafeta (hand-off) notificando directamente al siguiente agente en su `notes.md` para que este pueda continuar el flujo sin interrupciones.
+6. **Metodología Kanban & Cadena de Producción Secuencial Estricta (Stage Gates):**
+   - Todo trabajo se gestiona bajo el modelo **Kanban** (`Por Hacer` ➔ `En Progreso` ➔ `En Revisión` ➔ `Completado`) en `projects/[active_project_id]/kanban-board.md`.
+   - **Protocolo de Compuertas Bloqueantes (Stage Gates):** Las fases de un proyecto (Fase 1: Viabilidad ➔ Fase 2: Estrategia ➔ Fase 3: Diseño y Contenidos ➔ Fase 4: Desarrollo e Infraestructura) son secuenciales y bloqueantes. Ningún agente puede iniciar tareas de diseño, marketing o programación si la compuerta anterior (ej. Evaluación de Viabilidad por `@feasibility-analyst`) no está 100% completada y aprobada.
+   - **Prohibición de Salto de Etapas:** Queda estrictamente prohibido a cualquier agente (incluyendo al CEO) proponer, sugerir o ejecutar tareas paralelas de fases futuras mientras existan compuertas o dependencias previas bloqueadas.
+   - **Pase de Estafeta (Hand-off):** Al finalizar su entregable con alta calidad, el agente actualiza su estado en el Kanban a `Completado`, notifica en su `notes.md` etiquetando al siguiente rol desbloqueado y le cede formalmente la estafeta para continuar el flujo.
+
 7. **Asignación y Cumplimiento de KPIs por el Líder Directo:**
    - Cada agente opera en función de los indicadores clave de rendimiento (KPIs) de su rol definidos por su líder.
 8. **Visión 100% Funnel & Actualización Constante de Documentos:**
