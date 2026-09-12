@@ -29,8 +29,12 @@ startup-builder/
 │   ├── customer-support/         # Customer Support Specialist (Atención Omnicanal)
 │   ├── customer-success/         # Customer Success Specialist (Optimización de Funnel)
 │   ├── api-integration-specialist/# Líder de Integraciones & Salud de APIs
-│   ├── project-admin/            # Administrador de Repositorio & Higiene del Sistema
-│   └── feasibility-analyst/      # Analista de Viabilidad Financiera & Mercado (GO/NO-GO)
+│   ├── feasibility-analyst/      # Analista de Viabilidad Financiera & Mercado (GO/NO-GO)
+│   ├── email-specialist/         # Email Marketing & Lifecycle Automation Specialist
+│   ├── growth-hacker/            # Growth Hacker & Viral Loops Specialist (Referidos & Gamificación)
+│   ├── qa-engineer/              # QA & Automated Testing Engineer (Playwright & Calidad)
+│   ├── security-devops/          # DevOps & Cloud Security Specialist (CI/CD, Servidores & SSL)
+│   └── legal-compliance/         # Legal & Compliance Specialist (GDPR, Términos & Stripe Risk)
 │                                 # (Cada carpeta contiene prompt.md, instructions.md y notes.md)
 │
 └── projects/                     # Proyectos / Startups Gestionadas
