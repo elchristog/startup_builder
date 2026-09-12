@@ -62,7 +62,7 @@
 
 ---
 
-### 🟢 ETAPA 2F: PROMPT DE LOGO CON IA (GATE 2F - ACTIVO / EN EJECUCIÓN)
+### 🟢 ETAPA 2F: PROMPT DE LOGO CON IA (GATE 2F - 🔍 EN REVISIÓN CPO)
 - [/] `[TASK-LOGO-01]` **Ingeniería de Prompt para Generación de Logo con IA:** Redactar el prompt exacto para el logo e icono de app.  
   - **Asignado a:** `@ux-designer`  
   - **Revisar por:** `@cpo`  
@@ -112,13 +112,14 @@
 
 ## 🏃 3. En Progreso (In Progress)
 
-- [/] `[TASK-LOGO-01]` **Ingeniería de Prompt para Generación de Logo con IA:** Redactar especificación de prompt IA e icono ASO en `projects/nclex-prep-hispanos/funnel/logo-ai-prompt.md`. (Asignado a `@ux-designer`)
+*(Sin tareas activas actualmente en progreso)*
 
 ---
 
 ## 🔍 4. En Revisión (In Review)
 
-*(Sin tareas actualmente en revisión)*
+- [/] `[TASK-LOGO-01]` **Ingeniería de Prompt para Generación de Logo con IA:** Prompts Midjourney v6/DALL-E 3 e ícono ASO Google Play (512x512 px) en `projects/nclex-prep-hispanos/funnel/logo-ai-prompt.md`. (Asignado a `@ux-designer`, Pendiente visto bueno de `@cpo`)
+
 
 ---
 
