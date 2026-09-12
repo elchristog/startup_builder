@@ -19,14 +19,23 @@ graph TD
     CMO["📢 CMO<br/>Chief Marketing Officer"]
     CPO["🎨 CPO<br/>Chief Product Officer"]
     CTO["⚙️ CTO<br/>Chief Technology Officer"]
+    CFO["📈 CFO<br/>Chief Financial Officer"]
     ProjAdmin["🧹 Project Admin<br/>(Higiene & Gobernanza de Repositorio)"]
     FeasibilityAnalyst["📊 Feasibility Analyst<br/>(Viabilidad Financiera & Mercado GO/NO-GO)"]
     
     CEO --> CMO
     CEO --> CPO
     CEO --> CTO
+    CEO --> CFO
     CEO --> ProjAdmin
     CEO --> FeasibilityAnalyst
+
+    %% Rama de Finanzas & Contabilidad (CFO)
+    subgraph Rama_Finanzas ["📈 Finanzas & Contabilidad (CFO)"]
+        AccountingSpec["🧾 Accounting Specialist<br/>(Contabilidad, Stripe API & Impuestos)"]
+    end
+    
+    CFO --> AccountingSpec
 
     %% Rama de Marketing & Canales (CMO)
     subgraph Canales_Marketing ["📢 Marketing & Canales de Adquisición (CMO)"]
@@ -86,3 +95,5 @@ graph TD
 | **Integración de APIs & Salud** | **API & Integration Specialist** (`api-integration-specialist/`) | CTO | Monitoreo de APIs, webhooks, rate limits y sincronización con BigQuery. |
 | **Administración del Repositorio**| **Project & Repository Administrator** (`project-admin/`) | CEO | Higiene del sistema, eliminación de basura, git y cumplimiento estructural. |
 | **Viabilidad & Validación inicial**| **Feasibility & Market Analyst** (`feasibility-analyst/`) | CEO / Christian | Estudio de mercado por API, finanzas a 1.0% de conversión y veredicto GO/NO-GO. |
+| **Estrategia Financiera & Caja** | **CFO** (`cfo/`) | CEO / Christian | Asignación presupuestaria, Runway, Cash Flow, Unit Economics y EBITDA. |
+| **Contabilidad & Facturación** | **Accounting Specialist** (`accounting-specialist/`) | CFO | Conciliación de Stripe/bancos en BigQuery, P&L mensual y control fiscal. |

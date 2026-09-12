@@ -17,6 +17,8 @@ startup-builder/
 │   ├── cmo/                      # Chief Marketing Officer (Líder de Marketing)
 │   ├── cpo/                      # Chief Product Officer (Líder de Producto)
 │   ├── cto/                      # Chief Technology Officer (Líder de Tecnología)
+│   ├── cfo/                      # Chief Financial Officer (Líder de Finanzas)
+│   ├── accounting-specialist/    # Especialista en Contabilidad, Stripe API & Impuestos
 │   ├── content-lead/             # Líder de Generación de Contenidos & Copywriter
 │   ├── web-specialist/           # Especialista en Sitio Web & CRO (Astro)
 │   ├── meta-ads-specialist/      # Especialista en Facebook e Instagram Ads
