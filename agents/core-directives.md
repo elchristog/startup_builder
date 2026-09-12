@@ -66,6 +66,14 @@ Este documento establece las **reglas de oro, principios de ejecución y el prot
       - 🎨 **Etapa 5: Curaduría de Contenidos & Diseño UX/UI (Gate 3):** El `@content-lead` cura los contenidos base y el `@ux-designer` crea los wireframes y diseño UI/UX.
       - 💻 **Etapa 6: Desarrollo Técnico & Infraestructura (Gate 4):** El `@cto` coordina la app (`/webapp`), `@web-specialist` construye la landing page (`/website`) y `@api-integration-specialist` configura BigQuery (`/database`).
       - 🚀 **Etapa 7: Lanzamiento, Growth & Retención (Gate 5):** `@meta-ads-specialist` lanza pauta, `@growth-hacker` optimiza bucles virales y `@customer-success` monitorea la tasa de retención.
+18. **Protocolo de Carga Obligatoria de Contexto en Prompts Generados (Mandatory Multi-File Context Protocol):**
+    - Todo prompt que un agente o el CEO genere para que Christian invoque al siguiente agente en la cadena DEBE contener explícitamente la orden de leer y revisar antes de actuar:
+      1. Sus propias instrucciones de rol (`agents/[target-agent]/instructions.md` si existe).
+      2. Su propio prompt de sistema (`agents/[target-agent]/prompt.md`).
+      3. Sus propias notas de rol (`agents/[target-agent]/notes.md`).
+      4. Las notas del agente que le está asignando la tarea (ej. `agents/[assigning-agent]/notes.md`).
+      5. El estado del proyecto activo (`agents/active-project.md`) y el tablero Kanban (`projects/[active_project_id]/kanban-board.md`).
+
 
 ---
 
