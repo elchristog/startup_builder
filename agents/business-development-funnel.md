@@ -13,7 +13,13 @@ El **Funnel de Desarrollo de Negocio (Business Development Lifecycle)** es la me
 
 Cada sub-etapa exige la **persistencia en markdown de un entregable específico** en la carpeta `projects/[startup-id]/funnel/` o `website/` antes de que el siguiente agente pueda proceder. El tablero Kanban (`projects/[active_project_id]/kanban-board.md`) administra estas dependencias mediante **Compuertas de Control (Stage Gates)** bloqueantes.
 
----
+### 🛡️ Protocolo de Gobernanza y Verificación Kanban por @project-admin
+Entre cada transición de sub-etapa, se ejecuta de forma obligatoria el **Protocolo de Doble Prompt**:
+1. **PROMPT 1 (Auditoría Kanban por `@project-admin`):** El Administrador del Proyecto y Líder de la Metodología Kanban (`@project-admin`) audita que el entregable previo se haya persistido correctamente, que el Kanban esté actualizado y que no existan violaciones metodológicas.
+   - Si detecta incumplimiento, `@project-admin` modifica e inyecta órdenes de corrección en el prompt del siguiente agente.
+   - Si se cumple la metodología, `@project-admin` aprueba y da luz verde al PROMPT 2.
+2. **PROMPT 2 (Siguiente Agente Operativo):** Prompt listo para ejecutar la siguiente tarea técnica u operativa desbloqueada.
+
 
 ## 🗺️ Mapa Completo del Embudo de Desarrollo de Negocio
 
@@ -23,7 +29,8 @@ graph TD
     Gate1 -- "Dictamen GO (LTV:CAC > 3.5x)" --> E2A["🔍 Etapa 2A: Research Keywords SEO/ASO<br/>(@seo-specialist)"]
     Gate1 -- "NO-GO" --> Pivot["⛔ Proyecto Descartado / Pivot"]
     E2A --> E2B["🏷️ Etapa 2B: Selección & Persistencia del Naming<br/>(@content-lead / @cmo)"]
-    E2B --> E2C["📐 Etapa 2C: Arquitectura SEO Transaccional<br/>(@seo-specialist)"]
+    E2B --> E2B_MACRO["🌎 Etapa 2B.1: Inteligencia Macroeconómica & Industria<br/>(@macro-analyst)"]
+    E2B_MACRO --> E2C["📐 Etapa 2C: Arquitectura SEO Transaccional<br/>(@seo-specialist)"]
     E2C --> E2D["🌐 Etapa 2D: Selección & Persistencia del Dominio Web<br/>(@seo-specialist / @cmo)"]
     E2D --> E2E["🎨 Etapa 2E: Paleta de Colores & Design System<br/>(@ux-designer)"]
     E2E --> E2F["🖼️ Etapa 2F: Prompt de IA para Generación de Logo<br/>(@ux-designer)"]
@@ -64,6 +71,13 @@ graph TD
 - **Agente:** `@content-lead` / `@cmo`
 - **Acción:** Seleccionar el nombre comercial oficial optimizado para SEO y ASO basado en la investigación de la Etapa 2A.
 - **Archivo Persistido:** `projects/[startup-id]/funnel/brand-and-naming.md`.
+
+---
+
+### 🌎 Etapa 2B.1: Inteligencia Macroeconómica & Entorno de Industria (GATE 2B.1)
+- **Agente:** `@macro-analyst`
+- **Acción:** Analizar tendencias PESTEL, regulaciones de homologación/visas, poder adquisitivo por región (PPP) y contexto de mercado global para respaldar precios y posicionamiento.
+- **Archivo Persistido:** `projects/[startup-id]/macro-analysis.md`.
 
 ---
 

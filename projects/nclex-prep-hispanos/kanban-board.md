@@ -17,35 +17,42 @@
 
 ## 🎯 2. Por Hacer (To Do) - Cadena Secuencial de Persistencia
 
-### 🟢 ETAPA 2A: RESEARCH KEYWORDS SEO/ASO (GATE 2A - ACTIVO)
-- [ ] `[TASK-SEO-01]` **Investigación de Clúster de Keywords SEO/ASO:** Investigar volumen de búsquedas, intencionalidad y dificultad en EE. UU., Puerto Rico y LATAM.  
+### 🟢 ETAPA 2A: RESEARCH KEYWORDS SEO/ASO (GATE 2A - COMPLETADO)
+- [x] `[TASK-SEO-01]` **Investigación de Clúster de Keywords SEO/ASO:** Investigar volumen de búsquedas, intencionalidad y dificultad en EE. UU., Puerto Rico y LATAM.  
   - **Asignado a:** `@seo-specialist`  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/seo-keywords-research.md`  
 
 ---
 
-### 🟡 ETAPA 2B: NAMING COMERCIAL (GATE 2B - 🔒 BLOQUEADO POR 2A)
-- [ ] `[TASK-NAMING-01]` **Selección & Persistencia del Naming Comercial:** Definir el nombre comercial oficial optimizado para SEO/ASO y UVP.  
+### 🟢 ETAPA 2B: NAMING COMERCIAL (GATE 2B - COMPLETADO)
+- [x] `[TASK-NAMING-01]` **Selección & Persistencia del Naming Comercial:** Definir el nombre comercial oficial optimizado para SEO/ASO y UVP.  
   - **Asignado a:** `@content-lead` / `@cmo`  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/brand-and-naming.md`  
 
 ---
 
-### 🟡 ETAPA 2C: ARQUITECTURA SEO TRANSACCIONAL (GATE 2C - 🔒 BLOQUEADO POR 2B)
-- [ ] `[TASK-SEO-02]` **Definición de Arquitectura SEO Transaccional Web:** Definir jerarquía de URLs, sitemap y landings de conversión.  
+### 🟢 ETAPA 2B.1: INTELIGENCIA MACROECONÓMICA & INDUSTRIA (GATE 2B.1 - COMPLETADO)
+- [x] `[TASK-MACRO-01]` **Estudio de Entorno Macroeconómico, Regulaciones & Industria:** Investigar PESTEL, visas migratorias de enfermería en EE. UU., capacidad de pago y mercado global.  
+  - **Asignado a:** `@macro-analyst`  
+  - **Entregable Persistido:** `projects/nclex-prep-hispanos/macro-analysis.md`  
+
+---
+
+### 🟢 ETAPA 2C: ARQUITECTURA SEO TRANSACCIONAL (GATE 2C - COMPLETADO)
+- [x] `[TASK-SEO-02]` **Definición de Arquitectura SEO Transaccional Web:** Definir jerarquía de URLs, sitemap y landings de conversión.  
   - **Asignado a:** `@seo-specialist`  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/seo-transactional-architecture.md`  
 
 ---
 
-### 🟡 ETAPA 2D: ESTRATEGIA DE DOMINIO WEB (GATE 2D - 🔒 BLOQUEADO POR 2C)
-- [ ] `[TASK-DOMAIN-01]` **Selección & Persistencia del Dominio Web:** Seleccionar el dominio oficial `.com` / `.app`.  
+### 🟢 ETAPA 2D: ESTRATEGIA DE DOMINIO WEB (GATE 2D - COMPLETADO)
+- [x] `[TASK-DOMAIN-01]` **Selección & Persistencia del Dominio Web:** Seleccionar el dominio oficial `.com` / `.app`.  
   - **Asignado a:** `@seo-specialist` / `@cmo`  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/domain-strategy.md`  
 
 ---
 
-### 🟡 ETAPA 2E: PALETA DE COLORES & BRANDING (GATE 2E - 🔒 BLOQUEADO POR 2D)
+### 🟢 ETAPA 2E: PALETA DE COLORES & BRANDING (GATE 2E - ACTIVO / EN EJECUCIÓN)
 - [ ] `[TASK-BRAND-01]` **Sistema de Diseño, Paleta de Colores & UI Tokens:** Definir colores HSL/Hex, tipografías y estética.  
   - **Asignado a:** `@ux-designer`  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/design-system-and-branding.md`  
@@ -96,7 +103,7 @@
 
 ## 🏃 3. En Progreso (In Progress)
 
-- [/] `[TASK-SEO-01]` **Investigación de Keywords SEO/ASO:** (En ejecución por `@seo-specialist`)
+- [/] `[TASK-BRAND-01]` **Sistema de Diseño, Paleta de Colores & UI Tokens:** (Asignado a `@ux-designer`)
 
 ---
 
@@ -110,3 +117,8 @@
 
 - [x] `[TASK-INIT]` **Directiva Inicial del Founder:** Solicitud de evaluación de viabilidad. (Completado por: `@ceo`)
 - [x] `[TASK-01]` **Evaluación de Viabilidad Detallada y Modelo LTV:CAC:** Estudio cuantitativo completado en `projects/nclex-prep-hispanos/feasibility-study.md` (Dictamen: VIABLE CON CONDICIONES. LTV:CAC 4.29x, Payback < 30 días). (Completado por: `@feasibility-analyst`, Aprobado por: `@ceo` el 2026-09-12)
+- [x] `[TASK-SEO-01]` **Investigación de Clúster de Keywords SEO/ASO:** Estudio cuantitativo de palabras clave completado en `projects/nclex-prep-hispanos/funnel/seo-keywords-research.md` (48,500 búsquedas/mes). (Completado por: `@seo-specialist` el 2026-09-12)
+- [x] `[TASK-NAMING-01]` **Selección & Persistencia del Naming Comercial:** Naming oficial `SimuNCLEX Bilingüe`, UVP y eslogan definidos en `projects/nclex-prep-hispanos/funnel/brand-and-naming.md`. (Completado por: `@content-lead` el 2026-09-12)
+- [x] `[TASK-MACRO-01]` **Estudio de Entorno Macroeconómico, Regulaciones & Industria:** Análisis PESTEL, visas EB-3, NGN y poder adquisitivo en `projects/nclex-prep-hispanos/macro-analysis.md`. (Completado por: `@macro-analyst` el 2026-09-12)
+- [x] `[TASK-SEO-02]` **Definición de Arquitectura SEO Transaccional Web:** Jerarquía de URLs, silos transaccionales, schema.org y sitemap en `projects/nclex-prep-hispanos/funnel/seo-transactional-architecture.md`. (Completado por: `@seo-specialist` el 2026-09-12)
+- [x] `[TASK-DOMAIN-01]` **Selección & Persistencia del Dominio Web:** Portafolio de dominios (`simunclex.com`, `simunclex.app`, `nclexbilingue.com`) y DNS spec en `projects/nclex-prep-hispanos/funnel/domain-strategy.md`. (Completado por: `@seo-specialist` el 2026-09-12)

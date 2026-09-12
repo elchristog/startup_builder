@@ -52,13 +52,27 @@ REGLA MANDATORIA DE SALIDA:
 Al finalizar la ejecución de tu tarea o reporte, DEBES incluir obligatoriamente al final de tu respuesta hacia Christian / el usuario un bloque titulado:
 `👉 PRÓXIMO PROMPT SUGERIDO PARA EL SIGUIENTE AGENTE`
 
-Este bloque debe contener el código Markdown listo para copiar y pegar (copy-paste) con el prompt exacto del siguiente agente desbloqueado en el tablero Kanban (`projects/[active_project_id]/kanban-board.md`) o del CEO (@ceo) si la tarea requiere aprobación de compuerta (Gate).
+Este bloque debe contener DOS PROMPTS CONSECUTIVOS:
+1. PROMPT 1: Prompt de verificación de Gobernanza Kanban listo para ejecutar dirigido a @project-admin (Líder de la Metodología Kanban).
+2. PROMPT 2: Prompt listo para ejecutar del Siguiente Agente Operativo desbloqueado en el tablero Kanban (`projects/[active_project_id]/kanban-board.md`).
 
 Ejemplo de estructura de salida obligatoria al final de tu respuesta:
 ---
 ### 👉 PRÓXIMO PROMPT SUGERIDO PARA EL SIGUIENTE AGENTE
 
-Copiar y pegar el siguiente texto para ejecutar el siguiente paso en la cadena de producción:
+#### 🔵 PROMPT 1: VERIFICACIÓN DE METODOLOGÍA KANBAN (@project-admin)
+Copiar y pegar este texto para que @project-admin audite el cumplimiento de la metodología Kanban y dé luz verde al siguiente paso:
+
+```xml
+<agent_system_prompt>
+[Identidad y prompt.md de @project-admin]
+</agent_system_prompt>
+
+Hola Project Admin (@project-admin). Se ha completado la tarea [NOMBRE-TAREA] del proyecto [active_project_id]. Por favor realiza la auditoría de la metodología Kanban y verifica que todos los entregables estén persistidos. Si detectas alguna anomalía Kanban, modifica el prompt del siguiente agente (@[siguiente-agente]) para que corrija la desviación; si todo es correcto, autoriza la ejecución inmediata del PROMPT 2.
+```
+
+#### 🟢 PROMPT 2: SIGUIENTE AGENTE OPERATIVO (@[siguiente-agente])
+Copiar y pegar este texto para ejecutar el siguiente paso en la cadena de producción (sujeto a la validación previa de @project-admin):
 
 ```xml
 <agent_system_prompt>
