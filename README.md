@@ -26,7 +26,8 @@ startup-builder/
 │   ├── ux-designer/              # UI/UX Designer (Diseño de Experiencia)
 │   ├── customer-support/         # Customer Support Specialist (Atención Omnicanal)
 │   ├── customer-success/         # Customer Success Specialist (Optimización de Funnel)
-│   └── api-integration-specialist/# Líder de Integraciones & Salud de APIs
+│   ├── api-integration-specialist/# Líder de Integraciones & Salud de APIs
+│   └── project-admin/            # Administrador de Repositorio & Higiene del Sistema
 │                                 # (Cada carpeta contiene prompt.md, instructions.md y notes.md)
 │
 └── projects/                     # Proyectos / Startups Gestionadas

@@ -19,10 +19,12 @@ graph TD
     CMO["📢 CMO<br/>Chief Marketing Officer"]
     CPO["🎨 CPO<br/>Chief Product Officer"]
     CTO["⚙️ CTO<br/>Chief Technology Officer"]
+    ProjAdmin["🧹 Project Admin<br/>(Higiene & Gobernanza de Repositorio)"]
     
     CEO --> CMO
     CEO --> CPO
     CEO --> CTO
+    CEO --> ProjAdmin
 
     %% Rama de Marketing & Canales (CMO)
     subgraph Canales_Marketing ["📢 Marketing & Canales de Adquisición (CMO)"]
@@ -80,3 +82,4 @@ graph TD
 | **Soporte & Atención** | **Customer Support Specialist** (`customer-support/`) | CPO | Atención omnicanal (chat, email, tickets) y resolución de dudas. |
 | **Optimización de Funnel & LTV**| **Customer Success Specialist** (`customer-success/`) | CPO | Cuellos de botella post-compra, retención y reducción de Churn. |
 | **Integración de APIs & Salud** | **API & Integration Specialist** (`api-integration-specialist/`) | CTO | Monitoreo de APIs, webhooks, rate limits y sincronización con BigQuery. |
+| **Administración del Repositorio**| **Project & Repository Administrator** (`project-admin/`) | CEO | Higiene del sistema, eliminación de basura, git y cumplimiento estructural. |

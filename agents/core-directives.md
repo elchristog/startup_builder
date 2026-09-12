@@ -43,6 +43,9 @@ Este documento establece las **reglas de oro, principios de ejecución y el prot
     - **Agentes Generales & Recursos por Proyecto:** El equipo de agentes de IA (`agents/`) es único y general para gestionar múltiples startups. Los activos de cada startup (sitio web, webapp, funnels, base de datos y kanban) residen de forma aislada en `projects/<startup-id>/`.
     - **Consulta Obligatoria de `agents/active-project.md`:** Antes de ejecutar cualquier instrucción, cada agente DEBE leer el archivo `agents/active-project.md` para verificar cuál startup está activa e identificar la ruta exacta de sus archivos (`projects/[active_project_id]/`).
     - **Etiquetado del Proyecto en `notes.md`:** Toda comunicación, tarea o reporte de métricas en el `notes.md` de un agente debe encabezarse indicando explícitamente el **`[Proyecto: <startup-id>]`** al que corresponde.
+14. **Administración de Repositorio & Higiene Estructural Continua:**
+    - **Custodia del Orden del Proyecto:** El **Project & Repository Administrator** (`@project-admin`), bajo la supervisión del **CEO** (`@ceo`), es el responsable directo de auditar y mantener impecable la estructura de archivos de todo el proyecto.
+    - **Eliminación Proactiva de Archivos Obsoletos:** Es mandato del `@project-admin` borrar proactivamente carpetas desorganizadas, archivos temporales, duplicados o artefactos obsoletos, garantizando que el repositorio conserve únicamente las carpetas oficiales `agents/` y `projects/`.
 
 ---
 
