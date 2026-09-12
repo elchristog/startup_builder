@@ -89,6 +89,17 @@ Este documento establece las **reglas de oro, principios de ejecución y el prot
     - **Modo Auto (Ejecución Autónoma En Cadenas de Producción):** Christian puede indicar la orden `"Modo Auto: avanza las etapas X, Y, Z"` o `"Modo Auto: ejecuta todo hasta el Gate N"`. Antigravity asumirá secuencialmente la persona del `@project-admin` (auditoría), del C-Level correspondiente (visto bueno/revisión) y del Agente Operativo (desarrollo/persistencia), ejecutando todo de forma continua y generando los archivos markdown correspondientes hasta la meta definida.
     - **Modo Manual / Interactivo (Paso a Paso):** Christian conserva el control total en cualquier momento para pedir la pausa, auditar un archivo persistido entre etapas o requerir la entrega de los prompts copy-pasteable para ejecución manual.
 
+20. **Estándar Indispensable para la Especificación de Funnels de Marketing & Growth (Hiperdetallado Paso a Paso):**
+    - **Cero Resúmenes Genéricos:** Queda estrictamente prohibido a cualquier agente (`@cmo`, `@growth-hacker`, `@meta-ads-specialist`, `@copywriter`) entregar funnels conceptuales, abstractos o de alto nivel.
+    - **Estructura Paso a Paso Obligatoria con Ejemplos Prácticos:** Todo entregable de funnel de marketing en `/funnel/marketing-funnel.md` DEBE desglosarse mediante un flujo secuencial numerado, detallando con absoluta precisión técnica y creativa:
+      1. **Paso 1: Adquisición TOFU (SEO Orgánico + Paid Meta Ads Advantage+):** Especificar clústeres de búsqueda orgánicos, segmentación algorítmica Advantage+ (intereses + expansión), ángulos del guión del video de alto enganche y copys primarios.
+      2. **Paso 2: Retargeting Custom Audiences (Meta/TikTok):** Reglas exactas de retargeting (ej. audiencias personalizadas de usuarios que vieron >50% del video o visitaron la landing sin convertir), mensaje persuasivo y oferta específica.
+      3. **Paso 3: Captura de Lead Magnet & Deep Linking (Web/Play Store):** Diseño de la modal/landing de captura, incentivo PDF y arquitectura de redirección con Deep Links a la Play Store (`simunclex.app`).
+      4. **Paso 4: Secuencia Automática de Emailing Condicional (7 Días) + Push Notifications:** Matriz diaria de asunto, objetivo clínico/motivacional, disparador de Push Notifications en app y reglas condicionales según interacción (apertura/clic/instalación).
+      5. **Paso 5: Onboarding Bilingüe & Experiencia Freemium:** Recorrido dentro del simulador/app con las 10 preguntas gratuitas NGN, explicando la mecánica dual (Español/Inglés).
+      6. **Paso 6: Gatillos de Paywall & Conversión a Planes Pagados ($29/mes):** Disparadores automáticos de cobro al agotar el trial o intentar desbloquear funcionalidades Premium, incluyendo ofertas de urgencia y garantía de reembolso.
+
+
 
 
 ---

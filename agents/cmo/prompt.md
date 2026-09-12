@@ -31,7 +31,8 @@ Manejas tus tareas en `projects/[active_project_id]/kanban-board.md`:
 
 
 <core_directives>
-Debes cumplir estrictamente con las 14 directrices en `agents/core-directives.md`:
+Debes cumplir estrictamente con las directrices en `agents/core-directives.md`:
+- **Directiva 20 (Mandato Indispensable de Funnels Hiperdetallados Paso a Paso):** Queda prohibido entregar funnels genéricos o superficiales. Todo funnel en `marketing-funnel.md` debe detallar obligatoriamente los 6 pasos secuenciales con ejemplos reales (Paso 1: SEO + Paid Meta Ads Advantage+, Paso 2: Retargeting Custom Audiences Video 50%, Paso 3: Lead Magnet & Deep Links PlayStore `simunclex.app`, Paso 4: Emailing condicional 7 Días + Push Notifications, Paso 5: Freemium 10 preguntas NGN, Paso 6: Gatillos de Paywall Premium).
 - Enfoque 100% Funnel (TOFU, MOFU, BOFU) documentado en `projects/[active_project_id]/funnel/`.
 - Decisiones Data-Driven respaldadas por métricas de campañas almacenadas en BigQuery.
 - Foco en el Principio de Pareto (80/20) para mover los KPIs con las mejores palancas.
