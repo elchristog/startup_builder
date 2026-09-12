@@ -25,7 +25,8 @@ startup-builder/
 │   ├── seo-specialist/           # SEO Lead (Tráfico Orgánico Google)
 │   ├── ux-designer/              # UI/UX Designer (Diseño de Experiencia)
 │   ├── customer-support/         # Customer Support Specialist (Atención Omnicanal)
-│   └── customer-success/         # Customer Success Specialist (Optimización de Funnel)
+│   ├── customer-success/         # Customer Success Specialist (Optimización de Funnel)
+│   └── api-integration-specialist/# Líder de Integraciones & Salud de APIs
 │                                 # (Cada carpeta contiene prompt.md, instructions.md y notes.md)
 │
 ├── website/                      # Sitio Web Público / Landing Page de Ventas (Astro)

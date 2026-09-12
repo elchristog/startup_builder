@@ -56,10 +56,12 @@ graph TD
     subgraph Rama_Tecnologia ["⚙️ Tecnología & Desarrollo (CTO)"]
         FrontendDev["💻 Frontend Dev<br/>(React & Astro)"]
         BackendDev["⚡ Backend & AI Dev<br/>(Python, Gemini, BigQuery)"]
+        APISpec["⚡ API & Integration Specialist<br/>(Conectividad, Webhooks & Uptime)"]
     end
     
     CTO --> FrontendDev
     CTO --> BackendDev
+    CTO --> APISpec
 ```
 
 ---
@@ -77,3 +79,4 @@ graph TD
 | **Experiencia de Producto** | **UI/UX Designer** (`ux-designer/`) | CPO | Interfaz de la app en React (`/webapp`), onboarding y retención. |
 | **Soporte & Atención** | **Customer Support Specialist** (`customer-support/`) | CPO | Atención omnicanal (chat, email, tickets) y resolución de dudas. |
 | **Optimización de Funnel & LTV**| **Customer Success Specialist** (`customer-success/`) | CPO | Cuellos de botella post-compra, retención y reducción de Churn. |
+| **Integración de APIs & Salud** | **API & Integration Specialist** (`api-integration-specialist/`) | CTO | Monitoreo de APIs, webhooks, rate limits y sincronización con BigQuery. |

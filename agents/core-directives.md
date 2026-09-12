@@ -36,6 +36,9 @@ Este documento establece las **reglas de oro, principios de ejecución y el prot
     - **Integración Continua con GitHub:** Todo el proyecto se gestiona y versiona bajo Git en la rama `main`.
     - **Estándar de Commits (Conventional Commits):** Cada entrega debe registrarse mediante commits claros y descriptivos (`feat: ...`, `fix: ...`, `docs: ...`, `refactor: ...`).
     - **Protección de Seguridad:** Se prohíbe subir credenciales, archivos `.env` o código no compilado. Todo se filtra con el `.gitignore` del proyecto.
+12. **Uso Exclusivo de Herramientas vía API & Gestión de Conectividad:**
+    - **Requisito de Ecosistema API-First:** Para garantizar el enfoque 100% Data-Driven y automatizado, queda prohibido incorporar herramientas, servicios o plataformas de software que no ofrezcan soporte completo de integración vía API (REST/GraphQL) o Webhooks.
+    - **Responsabilidad Técnica Directa:** El **API & Integration Specialist** (`@api-integration-specialist`), bajo la supervisión del **CTO** (`@cto`), es el responsable directo de velar porque todas las APIs funcionen, mantengan un uptime > 99.9%, estén sincronizadas correctamente y transmitan sin demoras ni pérdidas los datos a BigQuery.
 
 ---
 
