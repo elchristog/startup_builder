@@ -2,7 +2,7 @@
 
 **Startup:** NCLEX Prep Hispanos (Google Play App & Platform)  
 **Líderes de Proyecto:** `@ceo` | `@cmo` | `@cpo` | `@cto`  
-**Metodología:** Cadena de Producción Secuencial Estricta (Stage-Gated Kanban)  
+**Metodología:** Cadena de Producción Secuencial Estricta con Persistencia Obligatoria  
 **Última Actualización:** 2026-09-12  
 
 ---
@@ -15,61 +15,88 @@
 
 ---
 
-## 🎯 2. Por Hacer (To Do) - Cadena Secuencial con Compuertas de Control (Gates)
+## 🎯 2. Por Hacer (To Do) - Cadena Secuencial de Persistencia
 
-### 🟢 FASE 2A: RESEARCH SEO & NAMING (GATE 2A - ACTIVO / DESBLOQUEADO)
-*Desbloqueado tras aprobación del Gate 1 (Viabilidad). Esta tarea definirá el clúster de palabras clave para el Naming comercial y el ASO.*
-
-- [ ] `[TASK-SEO-01]` **Investigación de Clúster de Keywords & Naming SEO/ASO:** Investigar volumen de búsquedas (Search Volume), intencionalidad y dificultad de palabras clave clave (*"NCLEX RN en español"*, *"simulador NCLEX"*, *"enfermería USA"*, *"revalidación enfermeros"*) en EE. UU., Puerto Rico y LATAM. Definir la arquitectura de Naming comercial para la app y el dominio.  
+### 🟢 ETAPA 2A: RESEARCH KEYWORDS SEO/ASO (GATE 2A - ACTIVO)
+- [ ] `[TASK-SEO-01]` **Investigación de Clúster de Keywords SEO/ASO:** Investigar volumen de búsquedas, intencionalidad y dificultad en EE. UU., Puerto Rico y LATAM.  
   - **Asignado a:** `@seo-specialist`  
-  - **Dependencia:** `TASK-01` (Aprobada ✅).  
-  - **Entregable esperado:** Documento `projects/nclex-prep-hispanos/seo-and-naming-strategy.md` y actualización en `agents/seo-specialist/notes.md`.
+  - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/seo-keywords-research.md`  
 
 ---
 
-### 🟡 FASE 2B: ESTRATEGIA DE PRODUCTO & EMBUDO (GATE 2B - 🔒 BLOQUEADO POR TASK-SEO-01)
-*Se activa al completar la investigación de Keywords y Naming comercial.*
-
-- [ ] `[TASK-02]` **Arquitectura de QBank NGN & Motor CAT:** Definir la especificación del motor de preguntas adaptativas (IRT) y los tipos de ítems NGN.  
-  - **Asignado a:** `@cpo`  
-  - **Estado:** 🔒 Bloqueado por `TASK-SEO-01`  
-- [ ] `[TASK-06]` **Plan de Marketing Funnel & Campañas Orgánicas:** Diseñar embudo TOFU-MOFU-BOFU para enfermeros hispanos migrantes.  
-  - **Asignado a:** `@cmo`  
-  - **Estado:** 🔒 Bloqueado por `TASK-SEO-01`  
+### 🟡 ETAPA 2B: NAMING COMERCIAL (GATE 2B - 🔒 BLOQUEADO POR 2A)
+- [ ] `[TASK-NAMING-01]` **Selección & Persistencia del Naming Comercial:** Definir el nombre comercial oficial optimizado para SEO/ASO y UVP.  
+  - **Asignado a:** `@content-lead` / `@cmo`  
+  - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/brand-and-naming.md`  
 
 ---
 
-### 🔵 FASE 3: DISEÑO DE EXPERIENCIA & CONTENIDOS (GATE 3 - 🔒 BLOQUEADO POR FASE 2B)
+### 🟡 ETAPA 2C: ARQUITECTURA SEO TRANSACCIONAL (GATE 2C - 🔒 BLOQUEADO POR 2B)
+- [ ] `[TASK-SEO-02]` **Definición de Arquitectura SEO Transaccional Web:** Definir jerarquía de URLs, sitemap y landings de conversión.  
+  - **Asignado a:** `@seo-specialist`  
+  - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/seo-transactional-architecture.md`  
 
-- [ ] `[TASK-03]` **Curaduría del Banco de Preguntas Bilingüe Inicial (500 ítems):** Estructurar JSON maestro en Inglés NGN con racionales en Español.  
-  - **Asignado a:** `@content-lead`  
-  - **Estado:** 🔒 Bloqueado por `TASK-02`  
-- [ ] `[TASK-04]` **UX/UI Wireframes App Móvil (Android/Google Play):** Diseñar las pantallas clave: Dashboard, QBank, CAT Exam y Glosario.  
+---
+
+### 🟡 ETAPA 2D: ESTRATEGIA DE DOMINIO WEB (GATE 2D - 🔒 BLOQUEADO POR 2C)
+- [ ] `[TASK-DOMAIN-01]` **Selección & Persistencia del Dominio Web:** Seleccionar el dominio oficial `.com` / `.app`.  
+  - **Asignado a:** `@seo-specialist` / `@cmo`  
+  - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/domain-strategy.md`  
+
+---
+
+### 🟡 ETAPA 2E: PALETA DE COLORES & BRANDING (GATE 2E - 🔒 BLOQUEADO POR 2D)
+- [ ] `[TASK-BRAND-01]` **Sistema de Diseño, Paleta de Colores & UI Tokens:** Definir colores HSL/Hex, tipografías y estética.  
   - **Asignado a:** `@ux-designer`  
-  - **Estado:** 🔒 Bloqueado por `TASK-02`  
-- [ ] `[TASK-05]` **Ficha ASO & Visual Assets Google Play:** Metadatos, screenshots y diseño gráfico para la ficha en la App Store.  
-  - **Asignado a:** `@seo-specialist`  
-  - **Estado:** 🔒 Bloqueado por `TASK-06` y `TASK-SEO-01`  
+  - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/design-system-and-branding.md`  
 
 ---
 
-### 🟢 FASE 4: DESARROLLO TÉCNICO & DEPLOYMENT (GATE 4 - 🔒 BLOQUEADO POR FASE 3)
+### 🟡 ETAPA 2F: PROMPT DE LOGO CON IA (GATE 2F - 🔒 BLOQUEADO POR 2E)
+- [ ] `[TASK-LOGO-01]` **Ingeniería de Prompt para Generación de Logo con IA:** Redactar el prompt exacto para el logo e icono de app.  
+  - **Asignado a:** `@ux-designer`  
+  - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/logo-ai-prompt.md`  
 
-- [ ] `[TASK-07]` **Setup de Repositorio & App Base Móvil (Flutter/React Native):** Inicializar app en `projects/nclex-prep-hispanos/webapp/`.  
-  - **Asignado a:** `@cto`  
-  - **Estado:** 🔒 Bloqueado por `TASK-04`  
-- [ ] `[TASK-08]` **Desarrollo de Landing Page Comercial en Astro:** Desarrollar sitio comercial en `projects/nclex-prep-hispanos/website/`.  
-  - **Asignado a:** `@web-specialist`  
-  - **Estado:** 🔒 Bloqueado por `TASK-06`  
-- [ ] `[TASK-09]` **Pipeline BigQuery & Analytics:** Crear esquema en `projects/nclex-prep-hispanos/database/`.  
+---
+
+### 🔵 ETAPA 3A: ESPECIFICACIÓN TÉCNICA WEB EN ASTRO (GATE 3A - 🔒 BLOQUEADO POR 2F)
+- [ ] `[TASK-ASTRO-01]` **Especificación & Arquitectura de la Web en Astro:** Definir componentes, rutas y optimización de carga.  
+  - **Asignado a:** `@web-specialist` / `@cto`  
+  - **Entregable Persistido:** `projects/nclex-prep-hispanos/website/astro-architecture-spec.md`  
+
+---
+
+### 🔵 ETAPA 3B: FUNNEL DE MARKETING (GATE 3B - 🔒 BLOQUEADO POR 3A)
+- [ ] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU:** Diseñar las etapas de captación, ofertas y secuencias.  
+  - **Asignado a:** `@cmo`  
+  - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/marketing-funnel.md`  
+
+---
+
+### 🔵 ETAPA 3C: CUSTOMER JOURNEY END-TO-END (GATE 3C - 🔒 BLOQUEADO POR 3B)
+- [ ] `[TASK-CPO-01]` **Mapeo del Customer Journey End-to-End:** Diseñar la experiencia del usuario desde el primer toque hasta la retención.  
+  - **Asignado a:** `@cpo`  
+  - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/customer-journey-end-to-end.md`  
+
+---
+
+### 🟢 ETAPA 4: CURADURÍA QBANK & APP MÓVIL (GATE 4 - 🔒 BLOQUEADO POR 3C)
+- [ ] `[TASK-APP-01]` **Desarrollo de App Móvil & Curaduría de Preguntas:** Crear banco de preguntas NGN bilingüe y programar app.  
+  - **Asignados:** `@content-lead`, `@ux-designer`, `@cto`  
+  - **Directorio:** `projects/nclex-prep-hispanos/webapp/`  
+
+---
+
+### 🟢 ETAPA 5: BIGQUERY & ANALYTICS PIPELINE (GATE 5 - 🔒 BLOQUEADO POR 4)
+- [ ] `[TASK-DB-01]` **Pipeline BigQuery & Tracking de Conversión:** Crear tablas y vistas de retención temporal.  
   - **Asignado a:** `@api-integration-specialist`  
-  - **Estado:** 🔒 Bloqueado por `TASK-07`  
+  - **Entregable Persistido:** `projects/nclex-prep-hispanos/database/schema-and-dictionary.md`  
 
 ---
 
 ## 🏃 3. En Progreso (In Progress)
 
-- [/] `[TASK-00]` **Inicialización Estratégica & Gobernanza Kanban:** Definición de arquitectura multi-startup y alineación de dependencias secuenciales. (Asignado a: `@ceo`)
+- [/] `[TASK-SEO-01]` **Investigación de Keywords SEO/ASO:** (En ejecución por `@seo-specialist`)
 
 ---
 
@@ -81,5 +108,5 @@
 
 ## ✅ 5. Completado (Done)
 
-- [x] `[TASK-INIT]` **Directiva Inicial del Founder:** Solicitud de evaluación de viabilidad para app de preparación NCLEX-RN para hispanohablantes. (Completado por: `@ceo`)
-- [x] `[TASK-01]` **Evaluación de Viabilidad Detallada y Modelo LTV:CAC:** Estudio cuantitativo completado en `projects/nclex-prep-hispanos/feasibility-study.md` (Dictamen: VIABLE CON CONDICIONES. LTV:CAC 4.29x, Payback < 30 días, Margen Neto 85%). (Completado por: `@feasibility-analyst`, Aprobado por: `@ceo` el 2026-09-12)
+- [x] `[TASK-INIT]` **Directiva Inicial del Founder:** Solicitud de evaluación de viabilidad. (Completado por: `@ceo`)
+- [x] `[TASK-01]` **Evaluación de Viabilidad Detallada y Modelo LTV:CAC:** Estudio cuantitativo completado en `projects/nclex-prep-hispanos/feasibility-study.md` (Dictamen: VIABLE CON CONDICIONES. LTV:CAC 4.29x, Payback < 30 días). (Completado por: `@feasibility-analyst`, Aprobado por: `@ceo` el 2026-09-12)

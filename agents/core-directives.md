@@ -57,15 +57,22 @@ Este documento establece las **reglas de oro, principios de ejecución y el prot
     - **Requisito Indispensable al Finalizar Respuesta:** Al concluir la ejecución de cualquier tarea o entregar un reporte, TODO agente DEBE incluir obligatoriamente al final de su mensaje de respuesta un bloque titulado `👉 PRÓXIMO PROMPT SUGERIDO PARA EL SIGUIENTE AGENTE`.
     - **Formato del Bloque:** Debe ser un bloque en formato Markdown listo para copiar y pegar (copy-paste) por Christian / el usuario, que incluya el contexto de identidad `<agent_system_prompt>` del siguiente agente a ejecutar según el tablero Kanban (`projects/[active_project_id]/kanban-board.md`) o del `@ceo` si se requiere aprobación de compuerta (Gate), acompañado de las instrucciones exactas para la siguiente tarea.
 17. **Protocolo Obligatorio del Funnel de Desarrollo de Negocio (Business Development Lifecycle Protocol):**
-    - **Cadena Secuencial de Etapas:** Toda idea o startup gestionada en Startup Builder debe avanzar obligatoriamente a través del siguiente embudo secuencial de desarrollo de negocio sin omitir ni alterar ningún paso:
-      - 💡 **Etapa 0: Propuesta de Idea & Inicialización:** Christian / Founder propone la idea ➔ El `@ceo` crea la estructura en `projects/[startup-id]/` y activa `agents/active-project.md`.
-      - 📊 **Etapa 1: Evaluación Cuantitativa de Viabilidad (Gate 1):** El `@feasibility-analyst` realiza el estudio cuantitativo (Unit Economics, LTV:CAC > 3.5x, Payback < 60d, dictamen GO/NO-GO).
-      - 🔍 **Etapa 2: Investigación SEO & Selección de Keywords Maestras (Gate 2A):** El `@seo-specialist` investiga volúmenes de búsqueda, dificultad, intenciones comerciales y define el clúster de palabras clave principales en `projects/[active_project_id]/funnel/seo-and-keywords.md`.
-      - 🏷️ **Etapa 3: Naming, Branding de Nicho & Dominio (Gate 2B):** Basado en las keywords clave, el `@content-lead` / `@cmo` define el nombre comercial optimizado para SEO/ASO, la propuesta de valor maestra (UVP) y la arquitectura de marca en `projects/[active_project_id]/funnel/brand-and-naming.md`.
-      - 🎯 **Etapa 4: Arquitectura de Producto & Embudo Comercial (Gate 2C):** El `@cpo` especifica la experiencia de producto (`customer-journey-end-to-end.md`) y el `@cmo` diseña el embudo de ventas (`marketing-funnel.md`).
-      - 🎨 **Etapa 5: Curaduría de Contenidos & Diseño UX/UI (Gate 3):** El `@content-lead` cura los contenidos base y el `@ux-designer` crea los wireframes y diseño UI/UX.
-      - 💻 **Etapa 6: Desarrollo Técnico & Infraestructura (Gate 4):** El `@cto` coordina la app (`/webapp`), `@web-specialist` construye la landing page (`/website`) y `@api-integration-specialist` configura BigQuery (`/database`).
-      - 🚀 **Etapa 7: Lanzamiento, Growth & Retención (Gate 5):** `@meta-ads-specialist` lanza pauta, `@growth-hacker` optimiza bucles virales y `@customer-success` monitorea la tasa de retención.
+    - **Cadena Secuencial de Etapas & Persistencia Exigida:** Toda startup gestionada en Startup Builder debe avanzar obligatoriamente a través del siguiente embudo secuencial de desarrollo de negocio sin omitir ni alterar ningún paso:
+      - 💡 **Etapa 0: Propuesta & Inicialización:** Christian / Founder propone la idea ➔ El `@ceo` crea la estructura en `projects/[startup-id]/` y activa `agents/active-project.md`.
+      - 📊 **Etapa 1: Viabilidad Cuantitativa (Gate 1):** El `@feasibility-analyst` evalúa Unit Economics y persiste `projects/[startup-id]/feasibility-study.md`.
+      - 🔍 **Etapa 2A: Keyword Research SEO/ASO (Gate 2A):** El `@seo-specialist` investiga volúmenes y clústeres y persiste `projects/[startup-id]/funnel/seo-keywords-research.md`.
+      - 🏷️ **Etapa 2B: Selección del Naming Comercial (Gate 2B):** El `@content-lead` / `@cmo` define el nombre oficial y persiste `projects/[startup-id]/funnel/brand-and-naming.md`.
+      - 📐 **Etapa 2C: Arquitectura SEO Transaccional (Gate 2C):** El `@seo-specialist` diseña la estructura web y persiste `projects/[startup-id]/funnel/seo-transactional-architecture.md`.
+      - 🌐 **Etapa 2D: Estrategia de Dominio Web (Gate 2D):** El `@seo-specialist` / `@cmo` selecciona el dominio oficial y persiste `projects/[startup-id]/funnel/domain-strategy.md`.
+      - 🎨 **Etapa 2E: Paleta de Colores & Branding (Gate 2E):** El `@ux-designer` define los tokens visuales y persiste `projects/[startup-id]/funnel/design-system-and-branding.md`.
+      - 🖼️ **Etapa 2F: Prompt de Logo con IA (Gate 2F):** El `@ux-designer` redacta el prompt para el logo y persiste `projects/[startup-id]/funnel/logo-ai-prompt.md`.
+      - ⚡ **Etapa 3A: Instrucciones Web en Astro (Gate 3A):** El `@web-specialist` especifica la arquitectura web y persiste `projects/[startup-id]/website/astro-architecture-spec.md`.
+      - 🎯 **Etapa 3B: Funnel de Marketing (Gate 3B):** El `@cmo` diseña el embudo de captación y persiste `projects/[startup-id]/funnel/marketing-funnel.md`.
+      - 🗺️ **Etapa 3C: Customer Journey End-to-End (Gate 3C):** El `@cpo` diseña el viaje del cliente y persiste `projects/[startup-id]/funnel/customer-journey-end-to-end.md`.
+      - 📱 **Etapa 4: Curaduría QBank & App Móvil (Gate 4):** `@content-lead` y `@cto` desarrollan la app en `projects/[startup-id]/webapp/`.
+      - 📊 **Etapa 5: BigQuery & Analytics Pipeline (Gate 5):** `@api-integration-specialist` persiste `projects/[startup-id]/database/schema-and-dictionary.md`.
+      - 🚀 **Etapa 6: Lanzamiento & Growth (Gate 6):** `@meta-ads-specialist` y `@growth-hacker` lanzan pauta y escalan el MRR.
+
 18. **Protocolo de Carga Obligatoria de Contexto en Prompts Generados (Mandatory Multi-File Context Protocol):**
     - Todo prompt que un agente o el CEO genere para que Christian invoque al siguiente agente en la cadena DEBE contener explícitamente la orden de leer y revisar antes de actuar:
       1. Sus propias instrucciones de rol (`agents/[target-agent]/instructions.md` si existe).
