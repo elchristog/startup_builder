@@ -2,51 +2,83 @@
 
 **Startup:** NCLEX Prep Hispanos (Google Play App & Platform)  
 **Líderes de Proyecto:** `@ceo` | `@cmo` | `@cpo` | `@cto`  
+**Metodología:** Cadena de Producción Secuencial Estricta (Stage-Gated Kanban)  
 **Última Actualización:** 2026-09-12  
 
 ---
 
 ## 💡 1. Backlog / Ideas
 
-- [ ] `[IDEA-01]` **Simulador con IA para Explicaciones por Voz:** Integrar síntesis de voz en las explicaciones de preguntas para que los estudiantes escuchen la pronunciación técnica en inglés. (`@cpo` / `@cto`)
-- [ ] `[IDEA-02]` **B2B Nursing Schools Partnership:** Ofertar licencias masivas a escuelas de enfermería en Puerto Rico, México y Colombia. (`@cmo` / `@ceo`)
-- [ ] `[IDEA-03]` **Comunidad Privada de Alumnos:** Integración de un foro/grupo exclusivo dentro de la App para resolver dudas clínicas entre pares. (`@cpo`)
+- [ ] `[IDEA-01]` **Simulador con IA para Explicaciones por Voz:** Integrar síntesis de voz en las explicaciones de preguntas en inglés. (`@cpo` / `@cto`)
+- [ ] `[IDEA-02]` **B2B Nursing Schools Partnership:** Licencias corporativas para universidades en Puerto Rico y LATAM. (`@cmo` / `@ceo`)
+- [ ] `[IDEA-03]` **Comunidad Privada In-App:** Foro de resolución de casos clínicos entre pares. (`@cpo`)
 
 ---
 
-## 🎯 2. Por Hacer (To Do) - Asignado a Líderes y Especialistas
+## 🎯 2. Por Hacer (To Do) - Cadena Secuencial con Compuertas de Control (Gates)
 
-### 📊 Análisis de Viabilidad & Métricas (`@feasibility-analyst` / `@cfo`)
-- [ ] `[TASK-01]` **Modelado Financiero y LTV:CAC:** Crear modelo unit economics detallado (Suscripciones Google Play $19.99/mo, $49.99/quarter, $119.99/yr) validando objetivo LTV:CAC > 3.5x y payback < 60 días. (Asignado a: `@feasibility-analyst`)
+### 🔴 FASE 1: VIABILIDAD & UNIT ECONOMICS (GATE 1 - ACTIVO / BLOQUEANTE)
+*Ninguna tarea de Producto, Marketing o Desarrollo se inicia sin la aprobación del Gate 1.*
 
-### 🎨 Producto & Experiencia de Usuario (`@cpo` / `@ux-designer` / `@content-lead`)
-- [ ] `[TASK-02]` **Arquitectura de QBank NGN & Motor CAT:** Definir la especificación del motor de preguntas adaptativas (IRT - Item Response Theory) y los 6 tipos de ítems NGN (Case Study, Bowtie, Trend, Highlight, Matrix, SATA). (Asignado a: `@cpo`)
-- [ ] `[TASK-03]` **Curaduría del Banco de Preguntas Bilingüe Inicial (500 ítems):** Estructurar el JSON maestro de preguntas en Inglés oficial con racionales, explicaciones clínicas y glosario en Español. (Asignado a: `@content-lead`)
-- [ ] `[TASK-04]` **UX/UI Wireframes App Móvil (Android/Google Play):** Diseñar las pantallas clave: Dashboard de Progreso, Modo Estudio QBank, Modo Examen CAT y Glosario interactivo. (Asignado a: `@ux-designer`)
+- [ ] `[TASK-01]` **Evaluación de Viabilidad Detallada y Modelo LTV:CAC:** Crear modelo financiero de unit economics (Suscripciones Google Play $19.99/mo, $49.99/quarter, $119.99/yr), validando LTV:CAC > 3.5x, payback < 60 días, análisis de competencia y matriz de riesgos financieros.  
+  - **Asignado a:** `@feasibility-analyst`  
+  - **Dependencia:** Ninguna (Tarea Activa Inmediata).  
+  - **Entregable esperado:** Documento en `agents/feasibility-analyst/notes.md` y dictamen final de viabilidad.
 
-### 📢 Marketing & Adquisición de Usuarios (`@cmo` / `@seo-specialist` / `@growth-hacker`)
-- [ ] `[TASK-05]` **Estrategia ASO (App Store Optimization) para Google Play:** Investigar volumen de búsqueda de palabras clave (*"NCLEX RN en español"*, *"Simulador NCLEX"*, *"Enfermería USA"*) y crear metadatos de ficha de Google Play. (Asignado a: `@seo-specialist`)
-- [ ] `[TASK-06]` **Plan de Marketing Funnel & Campañas Orgánicas TikTok/YouTube:** Diseñar embudo de conversión TOFU-MOFU-BOFU para enfermeros hispanos migrantes y copy para Ads. (Asignado a: `@cmo`)
+---
 
-### ⚙️ Tecnología e Infraestructura (`@cto` / `@web-specialist` / `@api-integration-specialist` / `@security-devops`)
-- [ ] `[TASK-07]` **Setup de Repositorio & Stack App Móvil (Flutter/React Native):** Inicializar la estructura base de la app móvil en `projects/nclex-prep-hispanos/webapp/`. (Asignado a: `@cto`)
-- [ ] `[TASK-08]` **Desarrollo de Landing Page de Captura en Astro:** Crear la landing comercial en `projects/nclex-prep-hispanos/website/` con formulario de pre-registro y lead magnet (Guía Gratuita NCLEX NGN en Español). (Asignado a: `@web-specialist`)
-- [ ] `[TASK-09]` **Pipeline de Datos & Esquema BigQuery:** Crear tablas en BigQuery (`projects/nclex-prep-hispanos/database/`) para tracking histórico de conversiones del embudo y eventos in-app. (Asignado a: `@api-integration-specialist`)
+### 🟡 FASE 2: ESTRATEGIA DE PRODUCTO & EMBUDO (GATE 2 - BLOQUEADO POR TASK-01)
+*Se activa únicamente cuando TASK-01 sea aprobada y movida a Completado.*
+
+- [ ] `[TASK-02]` **Arquitectura de QBank NGN & Motor CAT:** Definir la especificación del motor de preguntas adaptativas (IRT) y los tipos de ítems NGN.  
+  - **Asignado a:** `@cpo`  
+  - **Estado:** 🔒 Bloqueado por `TASK-01`  
+- [ ] `[TASK-06]` **Plan de Marketing Funnel & Campañas Orgánicas:** Diseñar embudo TOFU-MOFU-BOFU para enfermeros hispanos migrantes.  
+  - **Asignado a:** `@cmo`  
+  - **Estado:** 🔒 Bloqueado por `TASK-01`  
+
+---
+
+### 🔵 FASE 3: DISEÑO DE EXPERIENCIA & CONTENIDOS (GATE 3 - BLOQUEADO POR FASE 2)
+
+- [ ] `[TASK-03]` **Curaduría del Banco de Preguntas Bilingüe Inicial (500 ítems):** Estructurar JSON maestro en Inglés NGN con racionales en Español.  
+  - **Asignado a:** `@content-lead`  
+  - **Estado:** 🔒 Bloqueado por `TASK-02`  
+- [ ] `[TASK-04]` **UX/UI Wireframes App Móvil (Android/Google Play):** Diseñar las pantallas clave: Dashboard, QBank, CAT Exam y Glosario.  
+  - **Asignado a:** `@ux-designer`  
+  - **Estado:** 🔒 Bloqueado por `TASK-02`  
+- [ ] `[TASK-05]` **Estrategia ASO para Google Play:** Metadatos, keywords y capturas visuales para la ficha en la app store.  
+  - **Asignado a:** `@seo-specialist`  
+  - **Estado:** 🔒 Bloqueado por `TASK-06`  
+
+---
+
+### 🟢 FASE 4: DESARROLLO TÉCNICO & DEPLOYMENT (GATE 4 - BLOQUEADO POR FASE 3)
+
+- [ ] `[TASK-07]` **Setup de Repositorio & App Base Móvil (Flutter/React Native):** Inicializar app en `projects/nclex-prep-hispanos/webapp/`.  
+  - **Asignado a:** `@cto`  
+  - **Estado:** 🔒 Bloqueado por `TASK-04`  
+- [ ] `[TASK-08]` **Desarrollo de Landing Page Comercial en Astro:** Desarrollar sitio comercial en `projects/nclex-prep-hispanos/website/`.  
+  - **Asignado a:** `@web-specialist`  
+  - **Estado:** 🔒 Bloqueado por `TASK-06`  
+- [ ] `[TASK-09]` **Pipeline BigQuery & Analytics:** Crear esquema en `projects/nclex-prep-hispanos/database/`.  
+  - **Asignado a:** `@api-integration-specialist`  
+  - **Estado:** 🔒 Bloqueado por `TASK-07`  
 
 ---
 
 ## 🏃 3. En Progreso (In Progress)
 
-- [/] `[TASK-00]` **Inicialización Estratégica & Directivas del CEO:** Establecimiento del marco de trabajo multi-startup, asignación de OKRs y arquitectura del proyecto. (Asignado a: `@ceo`)
+- [/] `[TASK-00]` **Inicialización Estratégica & Gobernanza Kanban:** Definición de arquitectura multi-startup y alineación de dependencias secuenciales. (Asignado a: `@ceo`)
 
 ---
 
 ## 🔍 4. En Revisión (In Review)
 
-*(Sin tareas actualmente en revisión)*
+*(Sin tareas en revisión)*
 
 ---
 
 ## ✅ 5. Completado (Done)
 
-- [x] `[TASK-INIT]` **Evaluación de Viabilidad Inicial & Propuesta Estratégica Puente Bilingüe:** Análisis de oportunidad de mercado para enfermeros hispanohablantes rindiendo el NCLEX-RN. (Completado por: `@ceo`)
+- [x] `[TASK-INIT]` **Directiva Inicial del Founder:** Solicitud de evaluación de viabilidad para app de preparación NCLEX-RN para hispanohablantes. (Completado por: `@ceo`)
