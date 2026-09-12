@@ -8,12 +8,14 @@
 - **Solución Propuesta:** App Android en Google Play con metodología "Puente Bilingüe" (preguntas NGN en inglés con explicaciones, racionales clínicas y glosarios interactivos en español).
 
 ## 🔒 Cadena Secuencial de Producción (Protocolo Kanban de Compuertas)
-- 🔴 **GATE 1 (ACTIVO / EN EJECUCIÓN):** `@feasibility-analyst` debe completar la evaluación de viabilidad cuantitativa y modelo LTV:CAC en `TASK-01`.
-- 🟡 **GATE 2 (BLOQUEADO):** Estrategia de Producto (`@cpo`) y Funnel de Adquisición (`@cmo`) dependen de la aprobación del Gate 1.
-- 🔵 **GATE 3 (BLOQUEADO):** Diseño UX/UI (`@ux-designer`), Contenidos QBank (`@content-lead`) y ASO (`@seo-specialist`) dependen del Gate 2.
-- 🟢 **GATE 4 (BLOQUEADO):** Desarrollo de App (`@cto`), Landing Page (`@web-specialist`) y BigQuery (`@api-integration-specialist`) dependen del Gate 3.
+- ✅ **GATE 1 (COMPLETADO Y APROBADO):** `@feasibility-analyst` completó el estudio en `projects/nclex-prep-hispanos/feasibility-study.md`. Veredicto: **VIABLE CON CONDICIONES** (LTV:CAC Neto 4.29x, Payback < 30 días, Margen Neto 85%).
+- 🟢 **GATE 2A (ACTIVO / EN EJECUCIÓN):** `@seo-specialist` asignado a `TASK-SEO-01` para investigar el clúster de palabras clave y definir la arquitectura de Naming comercial SEO/ASO.
+- 🟡 **GATE 2B (BLOQUEADO):** Estrategia de Producto (`@cpo`) y Funnel (`@cmo`) se activarán tras definir el Naming comercial.
+- 🔵 **GATE 3 (BLOQUEADO):** UX/UI (`@ux-designer`), Contenidos (`@content-lead`) y Visual Assets ASO (`@seo-specialist`).
+- 🟢 **GATE 4 (BLOQUEADO):** Desarrollo App (`@cto`), Landing (`@web-specialist`) y BigQuery (`@api-integration-specialist`).
 
 ## 📢 Directriz Inmediata del CEO
-- **@feasibility-analyst:** Tienes la estafeta activa en `projects/nclex-prep-hispanos/kanban-board.md` (`TASK-01`). Procede inmediatamente a modelar unit economics, payback y riesgos de mercado. Todo el equipo aguarda tu dictamen para desbloquear la Fase 2.
+- **@seo-specialist:** Tienes la estafeta activa en `projects/nclex-prep-hispanos/kanban-board.md` (`TASK-SEO-01`). Procede a investigar volúmenes de búsqueda en EE. UU., Puerto Rico y LATAM para los términos ("NCLEX RN en español", "simulador NCLEX", "enfermería USA") y propón la estrategia de Naming comercial oficial para la app.
+
 
 

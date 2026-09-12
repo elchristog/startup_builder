@@ -53,6 +53,19 @@ Este documento establece las **reglas de oro, principios de ejecución y el prot
     - **Diseño 100% Funnel en BigQuery:** Toda base de datos en `projects/<startup-id>/database/` debe ser diseñada y mantenida para reflejar sin excepción la totalidad del embudo de ventas (TOFU ➔ MOFU ➔ BOFU ➔ Customer Journey).
     - **Medición de Tasa de Conversión Etapa-a-Etapa:** La estructura de tablas y vistas en BigQuery debe permitir calcular de forma instantánea el porcentaje de conversión de cualquier etapa a la siguiente (Impresiones ➔ Clics ➔ Leads ➔ Checkout ➔ Clientes ➔ Retención).
     - **Tracking Histórico & Análisis de Tendencias Temporales:** Todos los eventos de conversión deben incluir registros temporales precisos (`timestamp`, `cohort_date`, fecha/semana/mes) para analizar si las tasas de conversión etapa-a-etapa están **mejorando o desmejorando en el tiempo**. Esto permite a `@customer-success`, `@cmo` y `@cpo` identificar con precisión quirúrgica cuellos de botella y medir la efectividad histórica de cada optimización.
+16. **Protocolo Obligatorio de Entrega del Próximo Prompt (Next Agent Hand-off):**
+    - **Requisito Indispensable al Finalizar Respuesta:** Al concluir la ejecución de cualquier tarea o entregar un reporte, TODO agente DEBE incluir obligatoriamente al final de su mensaje de respuesta un bloque titulado `👉 PRÓXIMO PROMPT SUGERIDO PARA EL SIGUIENTE AGENTE`.
+    - **Formato del Bloque:** Debe ser un bloque en formato Markdown listo para copiar y pegar (copy-paste) por Christian / el usuario, que incluya el contexto de identidad `<agent_system_prompt>` del siguiente agente a ejecutar según el tablero Kanban (`projects/[active_project_id]/kanban-board.md`) o del `@ceo` si se requiere aprobación de compuerta (Gate), acompañado de las instrucciones exactas para la siguiente tarea.
+17. **Protocolo Obligatorio del Funnel de Desarrollo de Negocio (Business Development Lifecycle Protocol):**
+    - **Cadena Secuencial de Etapas:** Toda idea o startup gestionada en Startup Builder debe avanzar obligatoriamente a través del siguiente embudo secuencial de desarrollo de negocio sin omitir ni alterar ningún paso:
+      - 💡 **Etapa 0: Propuesta de Idea & Inicialización:** Christian / Founder propone la idea ➔ El `@ceo` crea la estructura en `projects/[startup-id]/` y activa `agents/active-project.md`.
+      - 📊 **Etapa 1: Evaluación Cuantitativa de Viabilidad (Gate 1):** El `@feasibility-analyst` realiza el estudio cuantitativo (Unit Economics, LTV:CAC > 3.5x, Payback < 60d, dictamen GO/NO-GO).
+      - 🔍 **Etapa 2: Investigación SEO & Selección de Keywords Maestras (Gate 2A):** El `@seo-specialist` investiga volúmenes de búsqueda, dificultad, intenciones comerciales y define el clúster de palabras clave principales en `projects/[active_project_id]/funnel/seo-and-keywords.md`.
+      - 🏷️ **Etapa 3: Naming, Branding de Nicho & Dominio (Gate 2B):** Basado en las keywords clave, el `@content-lead` / `@cmo` define el nombre comercial optimizado para SEO/ASO, la propuesta de valor maestra (UVP) y la arquitectura de marca en `projects/[active_project_id]/funnel/brand-and-naming.md`.
+      - 🎯 **Etapa 4: Arquitectura de Producto & Embudo Comercial (Gate 2C):** El `@cpo` especifica la experiencia de producto (`customer-journey-end-to-end.md`) y el `@cmo` diseña el embudo de ventas (`marketing-funnel.md`).
+      - 🎨 **Etapa 5: Curaduría de Contenidos & Diseño UX/UI (Gate 3):** El `@content-lead` cura los contenidos base y el `@ux-designer` crea los wireframes y diseño UI/UX.
+      - 💻 **Etapa 6: Desarrollo Técnico & Infraestructura (Gate 4):** El `@cto` coordina la app (`/webapp`), `@web-specialist` construye la landing page (`/website`) y `@api-integration-specialist` configura BigQuery (`/database`).
+      - 🚀 **Etapa 7: Lanzamiento, Growth & Retención (Gate 5):** `@meta-ads-specialist` lanza pauta, `@growth-hacker` optimiza bucles virales y `@customer-success` monitorea la tasa de retención.
 
 ---
 
@@ -63,7 +76,7 @@ Todo el seguimiento del proyecto se gestiona de forma centralizada en el archivo
 ### 🔄 Flujo de Trabajo en Cadena:
 1. **Asignación (Por Hacer):** El líder de área (CEO/CMO/CPO/CTO) crea la tarjeta en `kanban-board.md` y la asigna al agente correspondiente.
 2. **Ejecución (En Progreso):** El agente mueve la tarjeta a *En Progreso* en `kanban-board.md` y ejecuta su parte siguiendo sus directrices.
-3. **Pase de Estafeta (Comunicación al Siguiente):** Al finalizar su entregable, el agente actualiza la columna *Siguiente en la Cadena* en `kanban-board.md` y notifica en su `notes.md` etiquetando al siguiente rol (ejemplo: `Copywriter ➔ UI/UX Designer ➔ Web Specialist ➔ Meta Ads Specialist`).
+3. **Pase de Estafeta y Prompt del Siguiente Agente:** Al finalizar su entregable, el agente actualiza la columna *Siguiente en la Cadena* en `kanban-board.md`, notifica en su `notes.md` y **ENTREGA AL USUARIO EL PROMPT EXACTO DEL SIGUIENTE AGENTE A EJECUTAR**.
 4. **Cierre (Completado):** La tarjeta se mueve a *Completado (Done)* solo cuando el entregable está validado en producción y reportado.
 
 ---
@@ -95,22 +108,28 @@ Cada agente del equipo cuenta con su archivo `notes.md` en su respectiva carpeta
 
 ---
 
-## 🔄 4. Flujo de Trabajo y Colaboración Cruzada
+## 🔄 4. Flujo del Funnel de Desarrollo de Negocio (Business Development Sequence)
 
 ```mermaid
 sequenceDiagram
     autonumber
-    actor CMO as 📢 CMO / Estrategia
-    actor Ads as 📲 Meta / Media Buyer
-    actor Web as 🌐 Web Specialist
-    actor Dev as ⚙️ CTO / Frontend Dev
+    actor Founder as 🚀 Christian / Founder
+    actor CEO as 👑 CEO / Gobernanza
+    actor Feasibility as 📊 Feasibility Analyst
+    actor SEO as 🔍 SEO Specialist
+    actor Naming as 🏷️ Content Lead / Naming
+    actor Product as 🎨 CPO / CMO
+    actor Dev as ⚙️ CTO / Web Specialist
 
-    CMO->>Ads: Define meta de adquisición y presupuesto en notes.md
-    Ads->>Web: Solicita variante de landing page optimizada (@web-specialist)
-    Web->>Dev: Pide integración de píxel/API de conversiones (@cto)
-    Dev-->>Web: Confirma despliegue en producción
-    Web-->>Ads: Entrega URL de la landing optimizada
-    Ads->>CMO: Reporta ROAS y CAC semanal en su notes.md
+    Founder->>CEO: Propone idea de startup (Etapa 0)
+    CEO->>Feasibility: Solicita estudio cuantitativo & Unit Economics (Etapa 1)
+    Feasibility-->>CEO: Dictamen de Viabilidad (Gate 1)
+    CEO->>SEO: Asigna investigación de Keywords principales (Etapa 2 - Gate 2A)
+    SEO-->>Naming: Entrega clúster de palabras clave para Naming & SEO
+    Naming->>Product: Define Naming comercial, UVP & Marca (Etapa 3 - Gate 2B)
+    Product->>Dev: Especifica Producto (CPO), Embudo (CMO) y UX/UI
+    Dev-->>CEO: Despliega sitio web, app base y BigQuery (Gate 4)
+    CEO->>Founder: Presenta startup lista en producción para crecimiento
 ```
 
 ---
