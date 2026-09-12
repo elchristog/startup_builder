@@ -39,6 +39,10 @@ Este documento establece las **reglas de oro, principios de ejecución y el prot
 12. **Uso Exclusivo de Herramientas vía API & Gestión de Conectividad:**
     - **Requisito de Ecosistema API-First:** Para garantizar el enfoque 100% Data-Driven y automatizado, queda prohibido incorporar herramientas, servicios o plataformas de software que no ofrezcan soporte completo de integración vía API (REST/GraphQL) o Webhooks.
     - **Responsabilidad Técnica Directa:** El **API & Integration Specialist** (`@api-integration-specialist`), bajo la supervisión del **CTO** (`@cto`), es el responsable directo de velar porque todas las APIs funcionen, mantengan un uptime > 99.9%, estén sincronizadas correctamente y transmitan sin demoras ni pérdidas los datos a BigQuery.
+13. **Arquitectura Multi-Startup & Contexto del Proyecto Activo:**
+    - **Agentes Generales & Recursos por Proyecto:** El equipo de agentes de IA (`agents/`) es único y general para gestionar múltiples startups. Los activos de cada startup (sitio web, webapp, funnels, base de datos y kanban) residen de forma aislada en `projects/<startup-id>/`.
+    - **Consulta Obligatoria de `agents/active-project.md`:** Antes de ejecutar cualquier instrucción, cada agente DEBE leer el archivo `agents/active-project.md` para verificar cuál startup está activa e identificar la ruta exacta de sus archivos (`projects/[active_project_id]/`).
+    - **Etiquetado del Proyecto en `notes.md`:** Toda comunicación, tarea o reporte de métricas en el `notes.md` de un agente debe encabezarse indicando explícitamente el **`[Proyecto: <startup-id>]`** al que corresponde.
 
 ---
 

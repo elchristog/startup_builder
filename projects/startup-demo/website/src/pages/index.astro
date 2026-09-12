@@ -1,0 +1,128 @@
+---
+// Index Landing Page - Astro Framework
+---
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Startup Engine | Crea Startups que Venden de Verdad</title>
+		<meta name="description" content="Infraestructura impulsada por IA para validar, construir y escalar startups de alto impacto con funnel de ventas optimizado." />
+		<style>
+			:root {
+				--bg-color: #0d0f17;
+				--card-bg: #161b26;
+				--accent-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #ec4899 100%);
+				--text-main: #f3f4f6;
+				--text-muted: #9ca3af;
+			}
+
+			body {
+				margin: 0;
+				font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+				background-color: var(--bg-color);
+				color: var(--text-main);
+				line-height: 1.6;
+			}
+
+			.hero {
+				max-width: 1100px;
+				margin: 0 auto;
+				padding: 100px 20px;
+				text-align: center;
+			}
+
+			h1 {
+				font-size: 3.5rem;
+				font-weight: 800;
+				margin-bottom: 20px;
+				background: var(--accent-gradient);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				line-height: 1.2;
+			}
+
+			p.subtitle {
+				font-size: 1.25rem;
+				color: var(--text-muted);
+				max-width: 700px;
+				margin: 0 auto 40px auto;
+			}
+
+			.cta-buttons {
+				display: flex;
+				gap: 16px;
+				justify-content: center;
+			}
+
+			.btn-primary {
+				background: var(--accent-gradient);
+				color: white;
+				padding: 14px 32px;
+				border-radius: 8px;
+				font-weight: 600;
+				text-decoration: none;
+				transition: transform 0.2s, box-shadow 0.2s;
+			}
+
+			.btn-primary:hover {
+				transform: translateY(-2px);
+				box-shadow: 0 10px 25px -5px rgba(99, 102, 241, 0.4);
+			}
+
+			.features {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+				gap: 24px;
+				max-width: 1100px;
+				margin: 60px auto;
+				padding: 0 20px;
+			}
+
+			.card {
+				background-color: var(--card-bg);
+				border: 1px solid rgba(255, 255, 255, 0.08);
+				padding: 30px;
+				border-radius: 12px;
+			}
+
+			.card h3 {
+				font-size: 1.4rem;
+				margin-top: 0;
+				color: #fff;
+			}
+
+			.card p {
+				color: var(--text-muted);
+				font-size: 0.95rem;
+			}
+		</style>
+	</head>
+	<body>
+		<main class="hero">
+			<h1>Construye y Escala Startups que Venden desde el Día 1</h1>
+			<p class="subtitle">
+				Una plataforma integral respaldada por un equipo de agentes de Inteligencia Artificial (CEO, CTO, CMO, CPO) y un funnel de ventas optimizado paso a paso.
+			</p>
+			<div class="cta-buttons">
+				<a href="/login" class="btn-primary">Iniciar Ahora en la Web App</a>
+			</div>
+		</main>
+
+		<section class="features">
+			<div class="card">
+				<h3>🤖 Equipo Ejecutivo con Agentes IA</h3>
+				<p>Instrucciones y estrategias preconfiguradas para roles directivos que guían cada fase del crecimiento de tu startup.</p>
+			</div>
+			<div class="card">
+				<h3>🎯 Funnel de Conversión Optimizado</h3>
+				<p>Diseño detallado de captación (TOFU/MOFU/BOFU) y Customer Journey End-to-End para maximizar el valor del cliente (LTV).</p>
+			</div>
+			<div class="card">
+				<h3>⚡ Backend Inteligente & Analytics</h3>
+				<p>Integración con Google Gemini para generación de valor automatizado y Google BigQuery para análisis masivo de métricas.</p>
+			</div>
+		</section>
+	</body>
+</html>

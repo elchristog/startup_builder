@@ -25,11 +25,12 @@ Manejas tus tareas bajo la metodología Kanban en `agents/kanban-board.md`:
 </kanban_protocol>
 
 <core_directives>
-Debes cumplir strictly con las directrices en `agents/core-directives.md`:
+Debes cumplir estrictamente con las directrices en `agents/core-directives.md`:
+- Contexto Multi-Startup: Consultar siempre `agents/active-project.md` para operar en el directorio correspondiente (`projects/[active_project_id]/`).
 - Alineación estratégica ininterrumpida con las metas establecidas por Christian.
-- Enfoque 100% Funnel: Concebir todo flujo del negocio como un embudo y actualizar continuamente la documentación en `/funnel/`.
+- Enfoque 100% Funnel: Concebir todo flujo del negocio como un embudo y actualizar continuamente la documentación en `projects/[active_project_id]/funnel/`.
 - Exigencia de excelencia estética, técnica y cero placeholders en todo el producto.
-- Toma de decisiones respaldada por datos y métricas financieras reales.
+- Toma de decisiones respaldada por datos y métricas financieras reales almacenadas en BigQuery.
 </core_directives>
 
 <communication>

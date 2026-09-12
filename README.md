@@ -7,9 +7,9 @@ Plataforma integral para acelerar y sentar las bases de creación, validación y
 ```
 startup-builder/
 ├── agents/                       # Agentes de IA (Miembros del Equipo)
+│   ├── active-project.md         # 🎯 Selector de Contexto y Startup Activo
 │   ├── core-directives.md        # 📜 Directrices Fundamentales & Protocolo de Comunicación
 │   ├── team-hierarchy.md         # 🏛️ Organigrama y Jerarquía del Equipo
-│   ├── kanban-board.md           # 📋 Tablero Kanban Central de Producción
 │   ├── ceo/                      # Chief Executive Officer (Dirección General)
 │   │   ├── prompt.md             # 🤖 System Prompt Ejecutable del Agente
 │   │   ├── instructions.md       # 📋 Directrices Específicas del Rol
@@ -29,30 +29,13 @@ startup-builder/
 │   └── api-integration-specialist/# Líder de Integraciones & Salud de APIs
 │                                 # (Cada carpeta contiene prompt.md, instructions.md y notes.md)
 │
-├── website/                      # Sitio Web Público / Landing Page de Ventas (Astro)
-│   ├── src/
-│   │   ├── components/           # Componentes UI de conversión rápida
-│   │   └── pages/index.astro     # Landing principal con estética moderna
-│   └── astro.config.mjs
-│
-├── webapp/                       # Aplicación Web Core (SaaS / Platform)
-│   ├── frontend/                 # Frontend (React)
-│   │   └── src/
-│   │       ├── login/            # Módulo de Autenticación y Onboarding
-│   │       ├── customers/        # Portal y Dashboard para Clientes
-│   │       └── team/             # Workspace Interno para Operaciones y Equipo
-│   └── backend/                  # API Rest (Python + Google Gemini + BigQuery)
-│       └── app/
-│           ├── main.py           # API Principal (FastAPI)
-│           ├── gemini_client.py  # Integración con Google Gemini AI
-│           └── bigquery_client.py# Analítica e inteligencia de datos con BigQuery
-│
-├── funnel/                       # Documentación Estratégica de Conversión & LTV
-│   ├── marketing-funnel.md       # Arquitectura del Funnel de Adquisición y Ventas
-│   └── customer-journey-end-to-end.md # Viaje End-to-End del Cliente Post-Compra
-│
-└── database/                     # Gobernanza de Datos & BigQuery
-    └── schema-and-dictionary.md  # 🗄️ Esquema, Tablas, Features & ERD en BigQuery
+└── projects/                     # Proyectos / Startups Gestionadas
+    └── [startup-id]/             # (Ejemplo: startup-demo/)
+        ├── website/              # Sitio Web Público / Landing Page de Ventas (Astro)
+        ├── webapp/               # Aplicación SaaS (Frontend React + Backend Python)
+        ├── funnel/               # Funnels de Adquisición y Customer Journey
+        ├── database/             # Esquema y Diccionario de Datos en BigQuery
+        └── kanban-board.md       # Tablero Kanban del Proyecto Específico
 ```
 
 ---
