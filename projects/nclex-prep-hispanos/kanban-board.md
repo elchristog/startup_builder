@@ -70,16 +70,16 @@
 
 ---
 
-### 🔵 ETAPA 3A: ESPECIFICACIÓN TÉCNICA WEB EN ASTRO (GATE 3A - 🔍 EN REVISIÓN CTO)
-- [/] `[TASK-ASTRO-01]` **Especificación & Arquitectura de la Web en Astro:** Definir componentes, rutas y optimización de carga.  
+### 🔵 ETAPA 3A: ESPECIFICACIÓN TÉCNICA WEB EN ASTRO (GATE 3A - COMPLETADO)
+- [x] `[TASK-ASTRO-01]` **Especificación & Arquitectura de la Web en Astro:** Definir componentes, rutas y optimización de carga.  
   - **Asignado a:** `@web-specialist` / `@cto`  
-  - **Revisar por:** `@cto`  
+  - **Aprobado por:** `@cto` el 2026-09-12  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/website/astro-architecture-spec.md`  
 
 ---
 
-### 🔵 ETAPA 3B: FUNNEL DE MARKETING (GATE 3B - 🔒 BLOQUEADO POR 3A)
-- [ ] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU:** Diseñar las etapas de captación, ofertas y secuencias.  
+### 🔵 ETAPA 3B: FUNNEL DE MARKETING (GATE 3B - ACTIVO / EN EJECUCIÓN)
+- [/] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU:** Diseñar las etapas de captación, ofertas y secuencias.  
   - **Asignado a:** `@cmo`  
   - **Revisar por:** `@cmo` / `@ceo`  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/marketing-funnel.md`  
@@ -112,14 +112,13 @@
 
 ## 🏃 3. En Progreso (In Progress)
 
-*(Sin tareas activas actualmente en progreso)*
+- [/] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU:** Estrategia TOFU-MOFU-BOFU, lead magnets y secuencias de email nurturing en `projects/nclex-prep-hispanos/funnel/marketing-funnel.md`. (Asignado a `@cmo`)
 
 ---
 
 ## 🔍 4. En Revisión (In Review)
 
-- [/] `[TASK-ASTRO-01]` **Especificación & Arquitectura de la Web en Astro:** Estructura SSG/SSR, Client Islands en React y payload BigQuery en `projects/nclex-prep-hispanos/website/astro-architecture-spec.md`. (Asignado a `@web-specialist` / `@cto`, Pendiente visto bueno de `@cto`)
-
+*(Sin tareas actualmente en revisión)*
 
 ---
 
@@ -134,6 +133,8 @@
 - [x] `[TASK-DOMAIN-01]` **Selección & Persistencia del Dominio Web:** Portafolio oficial (`simunclex.com`, `simunclex.app`, `nclexbilingue.com`) y DNS spec en `projects/nclex-prep-hispanos/funnel/domain-strategy.md`. (Completado por: `@seo-specialist`, Aprobado por: `@cmo` el 2026-09-12)
 - [x] `[TASK-BRAND-01]` **Sistema de Diseño, Paleta de Colores & UI Tokens:** Especificación HSL, escala Outfit/Inter y tarjetas NGN en `projects/nclex-prep-hispanos/funnel/design-system-and-branding.md`. (Completado por: `@ux-designer`, Aprobado por: `@cpo` el 2026-09-12)
 - [x] `[TASK-LOGO-01]` **Ingeniería de Prompt para Generación de Logo con IA:** Prompts Midjourney v6/DALL-E 3 e ícono ASO Google Play (512x512 px) en `projects/nclex-prep-hispanos/funnel/logo-ai-prompt.md`. (Completado por: `@ux-designer`, Aprobado por: `@cpo` el 2026-09-12)
+- [x] `[TASK-ASTRO-01]` **Especificación & Arquitectura de la Web en Astro:** Estructura SSG/SSR, Client Islands en React y payload BigQuery en `projects/nclex-prep-hispanos/website/astro-architecture-spec.md`. (Completado por: `@web-specialist` / `@cto`, Aprobado por: `@cto` el 2026-09-12)
+
 
 
 
