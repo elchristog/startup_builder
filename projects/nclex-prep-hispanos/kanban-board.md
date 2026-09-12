@@ -94,15 +94,15 @@
 
 ---
 
-### 🟢 ETAPA 4: CURADURÍA QBANK & APP MÓVIL (GATE 4 - 🔍 EN REVISIÓN CPO / CTO)
-- [/] `[TASK-APP-01]` **Desarrollo de App Móvil & Curaduría de Preguntas:** Crear banco de preguntas NGN bilingüe y programar app.  
+### 🟢 ETAPA 4: CURADURÍA QBANK & APP MÓVIL (GATE 4 - ✅ COMPLETADO Y APROBADO C-LEVEL)
+- [x] `[TASK-APP-01]` **Desarrollo de App Móvil & Curaduría de Preguntas:** Crear banco de preguntas NGN bilingüe y programar app.  
   - **Asignados:** `@content-lead`, `@ux-designer`, `@cto`  
-  - **Revisar por:** `@cpo` & `@cto`  
+  - **Aprobado por:** `@cpo` & `@cto` el 2026-09-12  
   - **Directorio:** `projects/nclex-prep-hispanos/webapp/`  
 
 ---
 
-### 🟢 ETAPA 5: BIGQUERY & ANALYTICS PIPELINE (GATE 5 - 🔒 BLOQUEADO POR 4)
+### 🟢 ETAPA 5: BIGQUERY & ANALYTICS PIPELINE (GATE 5 - 🟢 DESBLOQUEADO PARA INTEGRACIÓN)
 - [ ] `[TASK-DB-01]` **Pipeline BigQuery & Tracking de Conversión:** Crear tablas y vistas de retención temporal.  
   - **Asignado a:** `@api-integration-specialist`  
   - **Revisar por:** `@cto` & `@cfo`  
@@ -118,14 +118,15 @@
 
 ## 🔍 4. En Revisión (In Review)
 
-- [/] `[TASK-APP-01]` **Desarrollo de App Móvil & Curaduría de Preguntas:** Dataset de casuística clínica NGN bilingüe en `projects/nclex-prep-hispanos/webapp/qbank-dataset.json` y especificación técnica de la app en `projects/nclex-prep-hispanos/webapp/app-architecture-spec.md`. (Asignados: `@content-lead`, `@ux-designer`, `@cto`, Pendiente visto bueno de `@cpo` & `@cto`)
-
+*(Sin tareas actualmente en revisión)*
 
 ---
 
 ## ✅ 5. Completado (Done)
 
+- [x] `[TASK-APP-01]` **Desarrollo de App Móvil & Curaduría de Preguntas:** Dataset de casuística clínica NGN bilingüe en `projects/nclex-prep-hispanos/webapp/qbank-dataset.json` y especificación técnica de la app en `projects/nclex-prep-hispanos/webapp/app-architecture-spec.md`. (Aprobado por `@cpo` y `@cto` el 2026-09-12)
 - [x] `[TASK-CPO-01]` **Mapeo del Customer Journey End-to-End:** Especificación de 7 etapas de experiencia del usuario (Discovery, Lead, Onboarding, First Practice, Paywall, Retention D30/D90, NCLEX Exam Day), mapa de fricciones y KPIs de usabilidad en `projects/nclex-prep-hispanos/funnel/customer-journey-end-to-end.md`. (Aprobado por `@cpo` y `@ceo` el 2026-09-12)
+
 
 
 - [x] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU (Directiva 20):** Especificación hiperdetallada de 6 pasos (Meta Ads Advantage+, Custom Audience Video 50%, Play Store Deep Link `simunclex.app`, Email/Push matrix, Freemium 10Q y Paywall Premium) en `projects/nclex-prep-hispanos/funnel/marketing-funnel.md`. (Aprobado por `@ceo` y Christian el 2026-09-12)
