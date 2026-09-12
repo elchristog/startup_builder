@@ -1,0 +1,51 @@
+{
+  "project": "nclex-prep-hispanos",
+  "product": "SimuNCLEX Bilingual QBank",
+  "version": "1.0.0-freemium",
+  "total_questions": 10,
+  "categories": [
+    "Safe and Effective Care Environment - Management of Care",
+    "Physiological Integrity - Pharmacological and Parenteral Therapies",
+    "Health Promotion and Maintenance",
+    "Psychosocial Integrity"
+  ],
+  "questions": [
+    {
+      "id": "NGN-001",
+      "type": "bowtie",
+      "category": "Physiological Integrity - Pharmacological and Parenteral Therapies",
+      "client_status": "A 54-year-old male client with a history of heart failure presents to the emergency department reporting severe dyspnea, orthopnea, and a cough producing pink, frothy sputum. Blood pressure is 168/94 mmHg, heart rate is 112 bpm, and oxygen saturation is 84% on room air.",
+      "stem_en": "The nurse is analyzing the client's clinical presentation. Select the primary condition the client is experiencing, two actions the nurse should take immediately, and two parameters the nurse should monitor to evaluate effectiveness.",
+      "stem_es": "El/la enfermero(a) está analizando la presentación clínica del paciente. Seleccione la condición principal que está experimentando el paciente, dos acciones inmediatas que debe tomar el/la enfermero(a) y dos parámetros que debe monitorear para evaluar la efectividad.",
+      "options_en": {
+        "potential_conditions": ["Pulmonary Embolism", "Acute Pulmonary Edema", "Anaphylaxis", "Pneumothorax"],
+        "actions_to_take": ["Administer IV Furosemide", "Place client in High-Fowler's position", "Administer IV Beta-blocker", "Perform endotracheal suctioning"],
+        "parameters_to_monitor": ["Oxygen saturation and lung sounds", "Urine output", "Blood glucose level", "Pupillary reaction"]
+      },
+      "options_es": {
+        "potential_conditions": ["Embolia Pulmonar", "Edema Agudo de Pulmón", "Anafilaxia", "Neumotórax"],
+        "actions_to_take": ["Administrar Furosemida IV", "Colocar al paciente en posición Fowler alta", "Administrar Betabloqueante IV", "Aspirar secreciones endotraqueales"],
+        "parameters_to_monitor": ["Saturación de oxígeno y ruidos pulmonares", "Diuresis / Gasto urinario", "Nivel de glucemia", "Reacción pupilar"]
+      },
+      "correct_answers": {
+        "potential_condition": "Acute Pulmonary Edema",
+        "actions_to_take": ["Administer IV Furosemide", "Place client in High-Fowler's position"],
+        "parameters_to_monitor": ["Oxygen saturation and lung sounds", "Urine output"]
+      },
+      "clinical_rationale_es": "El edema agudo de pulmón es una emergencia potencialmente mortal caracterizada por disnea severa, ortopnea y esputo rosado y espumoso debido a la congestión microvascular pulmonar por falla ventricular izquierda. Colocar al paciente en posición Fowler alta reduce el retorno venoso (precarga) y facilita la expansión pulmonar. La Furosemida IV es un diurético de asa de acción rápida que disminuye el volumen intravascular y la congestión pulmonar. La efectividad se monitorea evaluando la mejoría en la saturación de O2, la disminución de estertores pulmonares y el incremento en el gasto urinario."
+    },
+    {
+      "id": "NGN-002",
+      "type": "highlight_text",
+      "category": "Safe and Effective Care Environment - Management of Care",
+      "client_status": "Nurses' Notes: 0800 - Client is a 68-year-old female post-op day 1 following total hip arthroplasty. Client reports surgical site pain as 4/10. Vital signs: BP 118/76, HR 78, RR 16, Temp 98.6°F, SpO2 97% on room air. Surgical dressing is clean, dry, and intact. Surgical drain has 45 mL of serosanguineous drainage. Client is wearing sequential compression devices (SCDs). Client expresses concern about performing post-op leg exercises due to fear of dislocation.",
+      "stem_en": "Click to highlight the 2 clinical findings in the nurses' notes above that indicate proper preventive measures against deep vein thrombosis (DVT).",
+      "stem_es": "Haga clic para resaltar los 2 hallazgos clínicos en las notas de enfermería que indican medidas preventivas adecuadas contra la trombosis venosa profunda (TVP).",
+      "correct_highlights": [
+        "Client is wearing sequential compression devices (SCDs)",
+        "performing post-op leg exercises"
+      ],
+      "clinical_rationale_es": "Los dispositivos de compresión secuencial (SCDs) y los ejercicios tempranos de extremidades inferiores estimulan el retorno venoso y previenen el estasis sanguíneo, reduciendo drásticamente el riesgo de trombosis venosa profunda (TVP) y embolismo pulmonar postoperatorio. El miedo de la paciente al movimiento requiere educación clínica sobre cómo realizar los ejercicios de forma segura con la articulación protegida."
+    }
+  ]
+}

@@ -86,16 +86,16 @@
 
 ---
 
-### 🔵 ETAPA 3C: CUSTOMER JOURNEY END-TO-END (GATE 3C - 🔍 EN REVISIÓN CPO / CEO)
-- [/] `[TASK-CPO-01]` **Mapeo del Customer Journey End-to-End:** Diseñar la experiencia del usuario desde el primer toque hasta la retención.  
+### 🔵 ETAPA 3C: CUSTOMER JOURNEY END-TO-END (GATE 3C - ✅ COMPLETADO Y APROBADO C-LEVEL)
+- [x] `[TASK-CPO-01]` **Mapeo del Customer Journey End-to-End:** Diseñar la experiencia del usuario desde el primer toque hasta la retención.  
   - **Asignado a:** `@cpo`  
-  - **Revisar por:** `@cpo` / `@ceo`  
+  - **Aprobado por:** `@cpo` / `@ceo` el 2026-09-12  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/customer-journey-end-to-end.md`  
 
 ---
 
-### 🟢 ETAPA 4: CURADURÍA QBANK & APP MÓVIL (GATE 4 - 🔒 BLOQUEADO POR 3C)
-- [ ] `[TASK-APP-01]` **Desarrollo de App Móvil & Curaduría de Preguntas:** Crear banco de preguntas NGN bilingüe y programar app.  
+### 🟢 ETAPA 4: CURADURÍA QBANK & APP MÓVIL (GATE 4 - 🔍 EN REVISIÓN CPO / CTO)
+- [/] `[TASK-APP-01]` **Desarrollo de App Móvil & Curaduría de Preguntas:** Crear banco de preguntas NGN bilingüe y programar app.  
   - **Asignados:** `@content-lead`, `@ux-designer`, `@cto`  
   - **Revisar por:** `@cpo` & `@cto`  
   - **Directorio:** `projects/nclex-prep-hispanos/webapp/`  
@@ -118,12 +118,15 @@
 
 ## 🔍 4. En Revisión (In Review)
 
-- [/] `[TASK-CPO-01]` **Mapeo del Customer Journey End-to-End:** Especificación de 7 etapas de experiencia del usuario (Discovery, Lead, Onboarding, First Practice, Paywall, Retention D30/D90, NCLEX Exam Day), mapa de fricciones y KPIs de usabilidad en `projects/nclex-prep-hispanos/funnel/customer-journey-end-to-end.md`. (Asignado a `@cpo`, Pendiente visto bueno de `@cpo` / `@ceo`)
+- [/] `[TASK-APP-01]` **Desarrollo de App Móvil & Curaduría de Preguntas:** Dataset de casuística clínica NGN bilingüe en `projects/nclex-prep-hispanos/webapp/qbank-dataset.json` y especificación técnica de la app en `projects/nclex-prep-hispanos/webapp/app-architecture-spec.md`. (Asignados: `@content-lead`, `@ux-designer`, `@cto`, Pendiente visto bueno de `@cpo` & `@cto`)
 
 
 ---
 
 ## ✅ 5. Completado (Done)
+
+- [x] `[TASK-CPO-01]` **Mapeo del Customer Journey End-to-End:** Especificación de 7 etapas de experiencia del usuario (Discovery, Lead, Onboarding, First Practice, Paywall, Retention D30/D90, NCLEX Exam Day), mapa de fricciones y KPIs de usabilidad en `projects/nclex-prep-hispanos/funnel/customer-journey-end-to-end.md`. (Aprobado por `@cpo` y `@ceo` el 2026-09-12)
+
 
 - [x] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU (Directiva 20):** Especificación hiperdetallada de 6 pasos (Meta Ads Advantage+, Custom Audience Video 50%, Play Store Deep Link `simunclex.app`, Email/Push matrix, Freemium 10Q y Paywall Premium) en `projects/nclex-prep-hispanos/funnel/marketing-funnel.md`. (Aprobado por `@ceo` y Christian el 2026-09-12)
 - [x] `[TASK-INIT]` **Directiva Inicial del Founder:** Solicitud de evaluación de viabilidad. (Completado por: `@ceo`)
