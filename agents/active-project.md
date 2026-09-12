@@ -6,11 +6,11 @@ Este documento especifica cuál es la **startup en la que el equipo entero de ag
 
 ## 🚀 Startup Activa Actual
 
-- **ID del Proyecto:** `startup-demo`
-- **Nombre de la Startup:** Startup Demo Engine
-- **Ruta de Recursos del Proyecto:** `projects/startup-demo/`
+- **ID del Proyecto:** `nclex-prep-hispanos`
+- **Nombre de la Startup:** NCLEX Prep Hispanos (Google Play App & Platform)
+- **Ruta de Recursos del Proyecto:** `projects/nclex-prep-hispanos/`
 - **Fecha de Activación:** 2026-09-12
-- **Instrucción de Christian:** *"Desplegar y optimizar el funnel de conversión y la landing de la startup inicial."*
+- **Instrucción de Christian:** *"Evaluar viabilidad, crear arquitectura del proyecto, asignar tareas al equipo ejecutivo y ejecutar la cadena de producción del simulador NCLEX bilingüe en Google Play."*
 
 ---
 
@@ -18,11 +18,11 @@ Este documento especifica cuál es la **startup en la que el equipo entero de ag
 
 Cuando un agente recibe una tarea o consulta este documento, debe dirigir todas sus acciones a los archivos del proyecto activo en `projects/[active_project_id]/`:
 
-- 🌐 **Sitio Web & Landings:** `projects/startup-demo/website/`
-- 💻 **Aplicación SaaS (Frontend/Backend):** `projects/startup-demo/webapp/`
-- 🎯 **Documentación de Funnel:** `projects/startup-demo/funnel/`
-- 🗄️ **Base de Datos & BigQuery:** `projects/startup-demo/database/`
-- 📋 **Tablero Kanban del Proyecto:** `projects/startup-demo/kanban-board.md`
+- 🌐 **Sitio Web & Landings:** `projects/nclex-prep-hispanos/website/`
+- 💻 **Aplicación Móvil & WebApp:** `projects/nclex-prep-hispanos/webapp/`
+- 🎯 **Documentación de Funnel:** `projects/nclex-prep-hispanos/funnel/`
+- 🗄️ **Base de Datos & BigQuery:** `projects/nclex-prep-hispanos/database/`
+- 📋 **Tablero Kanban del Proyecto:** `projects/nclex-prep-hispanos/kanban-board.md`
 
 ---
 
@@ -30,4 +30,6 @@ Cuando un agente recibe una tarea o consulta este documento, debe dirigir todas 
 
 | Fecha | ID del Proyecto | Nombre | Estado |
 | :--- | :--- | :--- | :--- |
-| 2026-09-12 | `startup-demo` | Startup Demo Engine | 🟢 ACTIVO |
+| 2026-09-12 | `nclex-prep-hispanos` | NCLEX Prep Hispanos (Google Play App) | 🟢 ACTIVO |
+| 2026-09-12 | `startup-demo` | Startup Demo Engine | ⚪ INACTIVO |
+
