@@ -34,7 +34,8 @@ startup-builder/
 │   ├── growth-hacker/            # Growth Hacker & Viral Loops Specialist (Referidos & Gamificación)
 │   ├── qa-engineer/              # QA & Automated Testing Engineer (Playwright & Calidad)
 │   ├── security-devops/          # DevOps & Cloud Security Specialist (CI/CD, Servidores & SSL)
-│   └── legal-compliance/         # Legal & Compliance Specialist (GDPR, Términos & Stripe Risk)
+│   ├── legal-compliance/         # Legal & Compliance Specialist (GDPR, Términos & Stripe Risk)
+│   └── macro-analyst/            # Macroeconomic & Industry Analyst (Análisis PESTEL & Riesgos Macro)
 │                                 # (Cada carpeta contiene prompt.md, instructions.md y notes.md)
 │
 └── projects/                     # Proyectos / Startups Gestionadas

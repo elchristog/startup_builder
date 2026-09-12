@@ -22,6 +22,7 @@ graph TD
     CFO["📈 CFO<br/>Chief Financial Officer"]
     ProjAdmin["🧹 Project Admin<br/>(Higiene & Gobernanza de Repositorio)"]
     FeasibilityAnalyst["📊 Feasibility Analyst<br/>(Viabilidad Financiera & Mercado GO/NO-GO)"]
+    MacroAnalyst["🌐 Macro Analyst<br/>(Inteligencia Macroeconómica & PESTEL)"]
     
     CEO --> CMO
     CEO --> CPO
@@ -29,6 +30,7 @@ graph TD
     CEO --> CFO
     CEO --> ProjAdmin
     CEO --> FeasibilityAnalyst
+    CEO --> MacroAnalyst
     CEO --> LegalSpec
 
     %% Rama Legal & Cumplimiento Normativo (CEO / CFO)
@@ -117,3 +119,4 @@ graph TD
 | **Estrategia Financiera & Caja** | **CFO** (`cfo/`) | CEO / Christian | Asignación presupuestaria, Runway, Cash Flow, Unit Economics y EBITDA. |
 | **Contabilidad & Facturación** | **Accounting Specialist** (`accounting-specialist/`) | CFO | Conciliación de Stripe/bancos en BigQuery, P&L mensual y control fiscal. |
 | **Cumplimiento Legal & GDPR** | **Legal & Compliance Specialist** (`legal-compliance/`) | CEO / CFO | Términos de Servicio, Privacidad (GDPR/CCPA) y aprobación Stripe Risk. |
+| **Inteligencia Macroeconómica**| **Macroeconomic & Industry Analyst** (`macro-analyst/`) | CEO / Christian | Análisis PESTEL, tendencias de industria, alertas macro y matriz de riesgos. |
