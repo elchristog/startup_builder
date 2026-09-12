@@ -20,11 +20,13 @@ graph TD
     CPO["🎨 CPO<br/>Chief Product Officer"]
     CTO["⚙️ CTO<br/>Chief Technology Officer"]
     ProjAdmin["🧹 Project Admin<br/>(Higiene & Gobernanza de Repositorio)"]
+    FeasibilityAnalyst["📊 Feasibility Analyst<br/>(Viabilidad Financiera & Mercado GO/NO-GO)"]
     
     CEO --> CMO
     CEO --> CPO
     CEO --> CTO
     CEO --> ProjAdmin
+    CEO --> FeasibilityAnalyst
 
     %% Rama de Marketing & Canales (CMO)
     subgraph Canales_Marketing ["📢 Marketing & Canales de Adquisición (CMO)"]
@@ -83,3 +85,4 @@ graph TD
 | **Optimización de Funnel & LTV**| **Customer Success Specialist** (`customer-success/`) | CPO | Cuellos de botella post-compra, retención y reducción de Churn. |
 | **Integración de APIs & Salud** | **API & Integration Specialist** (`api-integration-specialist/`) | CTO | Monitoreo de APIs, webhooks, rate limits y sincronización con BigQuery. |
 | **Administración del Repositorio**| **Project & Repository Administrator** (`project-admin/`) | CEO | Higiene del sistema, eliminación de basura, git y cumplimiento estructural. |
+| **Viabilidad & Validación inicial**| **Feasibility & Market Analyst** (`feasibility-analyst/`) | CEO / Christian | Estudio de mercado por API, finanzas a 1.0% de conversión y veredicto GO/NO-GO. |

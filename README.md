@@ -27,7 +27,8 @@ startup-builder/
 │   ├── customer-support/         # Customer Support Specialist (Atención Omnicanal)
 │   ├── customer-success/         # Customer Success Specialist (Optimización de Funnel)
 │   ├── api-integration-specialist/# Líder de Integraciones & Salud de APIs
-│   └── project-admin/            # Administrador de Repositorio & Higiene del Sistema
+│   ├── project-admin/            # Administrador de Repositorio & Higiene del Sistema
+│   └── feasibility-analyst/      # Analista de Viabilidad Financiera & Mercado (GO/NO-GO)
 │                                 # (Cada carpeta contiene prompt.md, instructions.md y notes.md)
 │
 └── projects/                     # Proyectos / Startups Gestionadas
