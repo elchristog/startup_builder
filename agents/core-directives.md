@@ -32,6 +32,10 @@ Este documento establece las **reglas de oro, principios de ejecución y el prot
 10. **Foco en el Principio de Pareto (Regla del 80/20):**
     - **Mentalidad de Máximo Impacto:** Todo el equipo debe identificar y enfocar su energía prioritariamente en el **20% de tareas o palancas clave que resuelvan el 80% del rendimiento de sus KPIs**.
     - Se prohíbe perder tiempo en tareas secundarias o perfeccionismos de bajo valor que no muevan directamente las métricas asignadas.
+11. **Control de Versiones en Git/GitHub & Buenas Prácticas:**
+    - **Integración Continua con GitHub:** Todo el proyecto se gestiona y versiona bajo Git en la rama `main`.
+    - **Estándar de Commits (Conventional Commits):** Cada entrega debe registrarse mediante commits claros y descriptivos (`feat: ...`, `fix: ...`, `docs: ...`, `refactor: ...`).
+    - **Protección de Seguridad:** Se prohíbe subir credenciales, archivos `.env` o código no compilado. Todo se filtra con el `.gitignore` del proyecto.
 
 ---
 
