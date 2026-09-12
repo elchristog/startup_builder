@@ -84,6 +84,12 @@ Este documento establece las **reglas de oro, principios de ejecución y el prot
       4. Las notas del agente que le está asignando la tarea (ej. `agents/[assigning-agent]/notes.md`).
       5. El estado del proyecto activo (`agents/active-project.md`) y el tablero Kanban (`projects/[active_project_id]/kanban-board.md`).
 
+19. **Modalidades de Orquestación y Auto-Ejecución (Modo Auto vs. Modo Manual):**
+    - **Capacidad del Orquestador (Antigravity):** Antigravity puede asumir la identidad de cualquier agente del ecosistema (`@project-admin`, `@cmo`, `@cpo`, `@cto`, `@ux-designer`, etc.) y ejecutar en bucle secuencial las tareas del Kanban sin requerir que Christian copie y pegue manualmente los prompts.
+    - **Modo Auto (Ejecución Autónoma En Cadenas de Producción):** Christian puede indicar la orden `"Modo Auto: avanza las etapas X, Y, Z"` o `"Modo Auto: ejecuta todo hasta el Gate N"`. Antigravity asumirá secuencialmente la persona del `@project-admin` (auditoría), del C-Level correspondiente (visto bueno/revisión) y del Agente Operativo (desarrollo/persistencia), ejecutando todo de forma continua y generando los archivos markdown correspondientes hasta la meta definida.
+    - **Modo Manual / Interactivo (Paso a Paso):** Christian conserva el control total en cualquier momento para pedir la pausa, auditar un archivo persistido entre etapas o requerir la entrega de los prompts copy-pasteable para ejecución manual.
+
+
 
 ---
 
