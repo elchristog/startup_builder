@@ -45,16 +45,16 @@
 
 ---
 
-### 🟢 ETAPA 2D: ESTRATEGIA DE DOMINIO WEB (GATE 2D - 🔍 EN REVISIÓN C-LEVEL)
-- [/] `[TASK-DOMAIN-01]` **Selección & Persistencia del Dominio Web:** Seleccionar el dominio oficial `.com` / `.app`.  
+### 🟢 ETAPA 2D: ESTRATEGIA DE DOMINIO WEB (GATE 2D - COMPLETADO)
+- [x] `[TASK-DOMAIN-01]` **Selección & Persistencia del Dominio Web:** Seleccionar el dominio oficial `.com` / `.app`.  
   - **Asignado a:** `@seo-specialist`  
-  - **Revisar por:** `@cmo` / `@ceo`  
+  - **Aprobado por:** `@cmo` el 2026-09-12  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/domain-strategy.md`  
 
 ---
 
-### 🟡 ETAPA 2E: PALETA DE COLORES & BRANDING (GATE 2E - 🔒 BLOQUEADO POR 2D)
-- [ ] `[TASK-BRAND-01]` **Sistema de Diseño, Paleta de Colores & UI Tokens:** Definir colores HSL/Hex, tipografías y estética.  
+### 🟢 ETAPA 2E: PALETA DE COLORES & BRANDING (GATE 2E - ACTIVO / EN EJECUCIÓN)
+- [/] `[TASK-BRAND-01]` **Sistema de Diseño, Paleta de Colores & UI Tokens:** Definir colores HSL/Hex, tipografías y estética.  
   - **Asignado a:** `@ux-designer`  
   - **Revisar por:** `@cpo`  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/design-system-and-branding.md`  
@@ -111,13 +111,13 @@
 
 ## 🏃 3. En Progreso (In Progress)
 
-*(Sin tareas activas actualmente en progreso)*
+- [/] `[TASK-BRAND-01]` **Sistema de Diseño, Paleta de Colores & UI Tokens:** Definir colores HSL/Hex, tipografías y estética en `projects/nclex-prep-hispanos/funnel/design-system-and-branding.md`. (Asignado a `@ux-designer`)
 
 ---
 
 ## 🔍 4. En Revisión (In Review)
 
-- [/] `[TASK-DOMAIN-01]` **Selección & Persistencia del Dominio Web:** Estrategia de portafolio de dominios (`simunclex.com`, `simunclex.app`, `nclexbilingue.com`) en `projects/nclex-prep-hispanos/funnel/domain-strategy.md`. (Asignado a `@seo-specialist`, Pendiente visto bueno de `@cmo` / `@ceo`)
+*(Sin tareas actualmente en revisión)*
 
 ---
 
@@ -129,3 +129,5 @@
 - [x] `[TASK-NAMING-01]` **Selección & Persistencia del Naming Comercial:** Naming oficial `SimuNCLEX Bilingüe`, UVP y eslogan definidos en `projects/nclex-prep-hispanos/funnel/brand-and-naming.md`. (Completado por: `@content-lead`, Aprobado por: `@cmo` / `@ceo` el 2026-09-12)
 - [x] `[TASK-MACRO-01]` **Estudio de Entorno Macroeconómico, Regulaciones & Industria:** Análisis PESTEL, visas EB-3, NGN y poder adquisitivo en `projects/nclex-prep-hispanos/macro-analysis.md`. (Completado por: `@macro-analyst`, Aprobado por: `@cfo` / `@ceo` el 2026-09-12)
 - [x] `[TASK-SEO-02]` **Definición de Arquitectura SEO Transaccional Web:** Jerarquía de URLs, silos transaccionales, schema.org y sitemap en `projects/nclex-prep-hispanos/funnel/seo-transactional-architecture.md`. (Completado por: `@seo-specialist`, Aprobado por: `@cmo` el 2026-09-12)
+- [x] `[TASK-DOMAIN-01]` **Selección & Persistencia del Dominio Web:** Portafolio oficial (`simunclex.com`, `simunclex.app`, `nclexbilingue.com`) y DNS spec en `projects/nclex-prep-hispanos/funnel/domain-strategy.md`. (Completado por: `@seo-specialist`, Aprobado por: `@cmo` el 2026-09-12)
+
