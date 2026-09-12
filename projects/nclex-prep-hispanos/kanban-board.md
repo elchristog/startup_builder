@@ -70,7 +70,7 @@
 
 ---
 
-### 🔵 ETAPA 3A: ESPECIFICACIÓN TÉCNICA WEB EN ASTRO (GATE 3A - ACTIVO / EN EJECUCIÓN)
+### 🔵 ETAPA 3A: ESPECIFICACIÓN TÉCNICA WEB EN ASTRO (GATE 3A - 🔍 EN REVISIÓN CTO)
 - [/] `[TASK-ASTRO-01]` **Especificación & Arquitectura de la Web en Astro:** Definir componentes, rutas y optimización de carga.  
   - **Asignado a:** `@web-specialist` / `@cto`  
   - **Revisar por:** `@cto`  
@@ -112,13 +112,14 @@
 
 ## 🏃 3. En Progreso (In Progress)
 
-- [/] `[TASK-ASTRO-01]` **Especificación & Arquitectura de la Web en Astro:** Estructura de componentes, layouts y optimización Core Web Vitals en `projects/nclex-prep-hispanos/website/astro-architecture-spec.md`. (Asignado a `@web-specialist` / `@cto`)
+*(Sin tareas activas actualmente en progreso)*
 
 ---
 
 ## 🔍 4. En Revisión (In Review)
 
-*(Sin tareas actualmente en revisión)*
+- [/] `[TASK-ASTRO-01]` **Especificación & Arquitectura de la Web en Astro:** Estructura SSG/SSR, Client Islands en React y payload BigQuery en `projects/nclex-prep-hispanos/website/astro-architecture-spec.md`. (Asignado a `@web-specialist` / `@cto`, Pendiente visto bueno de `@cto`)
+
 
 ---
 
