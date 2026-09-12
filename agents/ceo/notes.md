@@ -2,28 +2,20 @@
 
 [Proyecto: nclex-prep-hispanos]
 
-## 📌 Directiva Suprema de Christian (Founder & Director Supremo)
-- ❌ **Rechazo del Borrador Previo (Etapa 3B):** Christian ha determinado que la especificación inicial del Funnel de Marketing carecía de profundidad operativa.
-- 🎯 **Instrucción de Re-elaboración para `@cmo`:** Diseñar una especificación del Funnel de Marketing paso a paso, hiperdetallada y con ejemplos prácticos reales de recorrido del usuario.
+## 📌 Directiva Suprema de Christian (Founder & Director Supremo) - CUMPLIDA
+- ✅ **Aprobación de la Etapa 3B (Directiva 20):** Christian y el CEO han evaluado y otorgado el **VISTO BUENO OFICIAL** a la especificación hiperdetallada del Funnel de Marketing en `projects/nclex-prep-hispanos/funnel/marketing-funnel.md`.
+- 🎯 **Puntos Validados:**
+  1. Paso 1: SEO Transaccional + Meta Ads Advantage+ (Guión de video ad sobre inglés médico NGN).
+  2. Paso 2: Custom Audience Meta (>50% Video View) con copy de retargeting a la Guía PDF.
+  3. Paso 3: Lead Magnet Modal + Deep Links directos a `simunclex.app` / Google Play Store.
+  4. Paso 4: Matriz automatizada de Emailing de 7 Días + Push Notifications en la app.
+  5. Paso 5: Freemium de 10 preguntas NGN duales (Español/Inglés) con racionales médicas.
+  6. Paso 6: Triggers de Paywall al agotar trial ➔ Planes de $29/mes, $69/3 meses o $149/año Pass Guarantee.
 
-## ⚙️ Directrices Tácticas para el Re-diseño del Funnel (@cmo)
-1. **Paso 1 (Atracción Orgánica & Paid Meta Ads Advantage+):**
-   - Tráfico orgánico via búsquedas Google ("simulador nclex en español") y TikTok/Reels de valor clínico.
-   - Campañas paid Meta Ads con segmentación **Advantage+ Audience** (interés en Enfermería + expansión algorítmica), especificando ángulo del video creativo.
-2. **Paso 2 (Retargeting Custom Audiences Meta):**
-   - Retargeting a usuarios que vieron >50% del video ad o visitaron la landing sin convertir.
-   - Copy y llamado a la acción específico invitando al Lead Magnet / Demo.
-3. **Paso 3 (Captura Lead Magnet / Play Store Deep Linking):**
-   - Experiencia de captura del email ➔ Redirección con Deep Links a `simunclex.app` / Google Play Store.
-4. **Paso 4 (Nutrición Automatizada Email & Push Notifications):**
-   - Flujo secuencial y condicional basado en comportamiento (apertura, clic, instalación de app).
-5. **Paso 5 (Onboarding Bilingüe & Freemium Trial):**
-   - Experiencia de las 10 preguntas gratuitas NGN con feedback dual.
-6. **Paso 6 (Gatillo de Paywall & Conversión Premium):**
-   - Oferta de conversión al agotar el trial o al intentar acceder al simulador completo.
+## 📢 Estado Kanban & Siguiente Pase de Estafeta
+- **Tarea `[TASK-MKT-01]`:** Movida oficialmente a **`5. Completado (Done)`**.
+- **Etapa 3C (`[TASK-CPO-01]`):** **DESBLOQUEADA** y asignada al Chief Product Officer (`@cpo`) para diseñar el Mapeo del Customer Journey End-to-End en `projects/nclex-prep-hispanos/funnel/customer-journey-end-to-end.md`.
 
-## 📢 Estado Kanban
-- **Tarea `[TASK-MKT-01]`:** Regresada a **`3. En Progreso (In Progress)`** para re-escritura por parte del `@cmo`.
 
 
 

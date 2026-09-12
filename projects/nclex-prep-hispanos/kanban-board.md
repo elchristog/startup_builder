@@ -78,19 +78,20 @@
 
 ---
 
-### 🔵 ETAPA 3B: FUNNEL DE MARKETING (GATE 3B - 🔍 EN REVISIÓN C-LEVEL / DIRECTIVA 20)
-- [/] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU:** Diseñar las etapas de captación paso a paso (Ads Advantage+, Retargeting, Landing/PlayStore, Emailing, Freemium y Paywall).  
+### 🔵 ETAPA 3B: FUNNEL DE MARKETING (GATE 3B - ✅ COMPLETADO Y APROBADO C-LEVEL)
+- [x] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU (Directiva 20):** Diseñar las etapas de captación paso a paso (Ads Advantage+, Retargeting, Landing/PlayStore, Emailing, Freemium y Paywall).  
   - **Asignado a:** `@cmo`  
-  - **Revisar por:** `@ceo` & Christian  
+  - **Aprobado por:** `@ceo` & Christian el 2026-09-12  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/marketing-funnel.md`  
 
 ---
 
-### 🔵 ETAPA 3C: CUSTOMER JOURNEY END-TO-END (GATE 3C - 🔒 BLOQUEADO POR 3B)
+### 🔵 ETAPA 3C: CUSTOMER JOURNEY END-TO-END (GATE 3C - 🟢 DESBLOQUEADO PARA CPO)
 - [ ] `[TASK-CPO-01]` **Mapeo del Customer Journey End-to-End:** Diseñar la experiencia del usuario desde el primer toque hasta la retención.  
   - **Asignado a:** `@cpo`  
   - **Revisar por:** `@cpo` / `@ceo`  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/customer-journey-end-to-end.md`  
+
 
 ---
 
@@ -118,15 +119,13 @@
 
 ## 🔍 4. En Revisión (In Review)
 
-- [/] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU (Directiva 20):** Especificación hiperdetallada de 6 pasos (Meta Ads Advantage+, Custom Audience Video 50%, Play Store Deep Link `simunclex.app`, Email/Push matrix, Freemium 10Q y Paywall Premium) en `projects/nclex-prep-hispanos/funnel/marketing-funnel.md`. (Asignado a `@cmo`, Pendiente visto bueno de `@ceo` & Christian)
-
-
-
+*(Sin tareas actualmente en revisión)*
 
 ---
 
 ## ✅ 5. Completado (Done)
 
+- [x] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU (Directiva 20):** Especificación hiperdetallada de 6 pasos (Meta Ads Advantage+, Custom Audience Video 50%, Play Store Deep Link `simunclex.app`, Email/Push matrix, Freemium 10Q y Paywall Premium) en `projects/nclex-prep-hispanos/funnel/marketing-funnel.md`. (Aprobado por `@ceo` y Christian el 2026-09-12)
 - [x] `[TASK-INIT]` **Directiva Inicial del Founder:** Solicitud de evaluación de viabilidad. (Completado por: `@ceo`)
 - [x] `[TASK-01]` **Evaluación de Viabilidad Detallada y Modelo LTV:CAC:** Estudio cuantitativo completado en `projects/nclex-prep-hispanos/feasibility-study.md` (Dictamen: VIABLE CON CONDICIONES. LTV:CAC 4.29x, Payback < 30 días). (Completado por: `@feasibility-analyst`, Aprobado por: `@ceo` el 2026-09-12)
 - [x] `[TASK-SEO-01]` **Investigación de Clúster de Keywords SEO/ASO:** Estudio cuantitativo de palabras clave completado en `projects/nclex-prep-hispanos/funnel/seo-keywords-research.md` (48,500 búsquedas/mes). (Completado por: `@seo-specialist`, Aprobado por: `@cmo` el 2026-09-12)
