@@ -126,11 +126,46 @@ erDiagram
 
 ---
 
-## 🛡️ 3. Reglas de Gobernanza y Buenas Prácticas en BigQuery
+## 📈 3. Vista de Conversión Histórica por Etapa de Funnel (`view_funnel_cohort_conversions`)
+
+Conforme a la **Directiva #15**, esta vista SQL consolida las tasas de conversión etapa-a-etapa agrupadas por cohorte temporal (diario/semanal/mensual), permitiendo auditar si el funnel está **mejorando o desmejorando en el tiempo**:
+
+```sql
+CREATE OR REPLACE VIEW `startup_builder.view_funnel_cohort_conversions` AS
+SELECT
+    DATE_TRUNC(DATE(event_timestamp), WEEK) AS cohort_week,
+    COUNT(DISTINCT CASE WHEN funnel_stage = 'TOFU_LANDING_VIEW' THEN session_id END) AS step_1_views,
+    COUNT(DISTINCT CASE WHEN funnel_stage = 'MOFU_LEAD_SUBMIT' THEN session_id END) AS step_2_leads,
+    COUNT(DISTINCT CASE WHEN funnel_stage = 'BOFU_CHECKOUT_INIT' THEN session_id END) AS step_3_checkouts,
+    COUNT(DISTINCT CASE WHEN funnel_stage = 'BOFU_PAYMENT_SUCCESS' THEN session_id END) AS step_4_customers,
+    
+    -- Tasas de Conversión Etapa-a-Etapa (% CR)
+    SAFE_DIVIDE(COUNT(DISTINCT CASE WHEN funnel_stage = 'MOFU_LEAD_SUBMIT' THEN session_id END), 
+                COUNT(DISTINCT CASE WHEN funnel_stage = 'TOFU_LANDING_VIEW' THEN session_id END)) * 100 AS cr_view_to_lead_pct,
+                
+    SAFE_DIVIDE(COUNT(DISTINCT CASE WHEN funnel_stage = 'BOFU_CHECKOUT_INIT' THEN session_id END), 
+                COUNT(DISTINCT CASE WHEN funnel_stage = 'MOFU_LEAD_SUBMIT' THEN session_id END)) * 100 AS cr_lead_to_checkout_pct,
+                
+    SAFE_DIVIDE(COUNT(DISTINCT CASE WHEN funnel_stage = 'BOFU_PAYMENT_SUCCESS' THEN session_id END), 
+                COUNT(DISTINCT CASE WHEN funnel_stage = 'BOFU_CHECKOUT_INIT' THEN session_id END)) * 100 AS cr_checkout_to_customer_pct,
+                
+    -- Tasa de Conversión End-to-End Global
+    SAFE_DIVIDE(COUNT(DISTINCT CASE WHEN funnel_stage = 'BOFU_PAYMENT_SUCCESS' THEN session_id END), 
+                COUNT(DISTINCT CASE WHEN funnel_stage = 'TOFU_LANDING_VIEW' THEN session_id END)) * 100 AS cr_end_to_end_pct
+FROM `startup_builder.analytics_raw.event_logs`
+GROUP BY cohort_week
+ORDER BY cohort_week DESC;
+```
+
+---
+
+## 🛡️ 4. Reglas de Gobernanza y Buenas Prácticas en BigQuery
 
 1. **Particionamiento y Clusterización:**
    - Todas las tablas de eventos y logs masivos deben particionarse por fecha (`DATE(event_timestamp)`) y clusterizarse por `user_id` y `event_name` para optimizar costos de consulta.
-2. **Modelado Cero Subjetividad:**
+2. **Medición Histórica Obligatoria (Directiva #15):**
+   - Todos los esquemas deben incluir marcas de tiempo e identificadores de cohorte para permitir la comparación intertemporal de tasas de conversión.
+3. **Modelado Cero Subjetividad:**
    - Queda prohibido tomar decisiones basadas en intuiciones o impresiones sin consulta SQL a las tablas de BigQuery.
-3. **Mantenimiento del Documento:**
+4. **Mantenimiento del Documento:**
    - El **CTO** y el **Backend Dev** deben actualizar este documento ante cualquier creación de nueva tabla, columna o relación de datos.

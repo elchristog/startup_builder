@@ -46,6 +46,10 @@ Este documento establece las **reglas de oro, principios de ejecución y el prot
 14. **Administración de Repositorio & Higiene Estructural Continua:**
     - **Custodia del Orden del Proyecto:** El **Project & Repository Administrator** (`@project-admin`), bajo la supervisión del **CEO** (`@ceo`), es el responsable directo de auditar y mantener impecable la estructura de archivos de todo el proyecto.
     - **Eliminación Proactiva de Archivos Obsoletos:** Es mandato del `@project-admin` borrar proactivamente carpetas desorganizadas, archivos temporales, duplicados o artefactos obsoletos, garantizando que el repositorio conserve únicamente las carpetas oficiales `agents/` y `projects/`.
+15. **Arquitectura de Base de Datos Basada en Funnel & Medición de Conversión Histórica Temporal:**
+    - **Diseño 100% Funnel en BigQuery:** Toda base de datos en `projects/<startup-id>/database/` debe ser diseñada y mantenida para reflejar sin excepción la totalidad del embudo de ventas (TOFU ➔ MOFU ➔ BOFU ➔ Customer Journey).
+    - **Medición de Tasa de Conversión Etapa-a-Etapa:** La estructura de tablas y vistas en BigQuery debe permitir calcular de forma instantánea el porcentaje de conversión de cualquier etapa a la siguiente (Impresiones ➔ Clics ➔ Leads ➔ Checkout ➔ Clientes ➔ Retención).
+    - **Tracking Histórico & Análisis de Tendencias Temporales:** Todos los eventos de conversión deben incluir registros temporales precisos (`timestamp`, `cohort_date`, fecha/semana/mes) para analizar si las tasas de conversión etapa-a-etapa están **mejorando o desmejorando en el tiempo**. Esto permite a `@customer-success`, `@cmo` y `@cpo` identificar con precisión quirúrgica cuellos de botella y medir la efectividad histórica de cada optimización.
 
 ---
 
