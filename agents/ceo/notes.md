@@ -8,14 +8,19 @@
 - **Solución Propuesta:** App Android en Google Play con metodología "Puente Bilingüe" (preguntas NGN en inglés con explicaciones, racionales clínicas y glosarios interactivos en español).
 
 ## 🔒 Cadena Secuencial de Producción (Protocolo Kanban de Compuertas)
-- ✅ **GATE 1 (COMPLETADO Y APROBADO):** `@feasibility-analyst` completó el estudio en `projects/nclex-prep-hispanos/feasibility-study.md`. Veredicto: **VIABLE CON CONDICIONES** (LTV:CAC Neto 4.29x, Payback < 30 días, Margen Neto 85%).
-- 🟢 **GATE 2A (ACTIVO / EN EJECUCIÓN):** `@seo-specialist` asignado a `TASK-SEO-01` para investigar el clúster de palabras clave y definir la arquitectura de Naming comercial SEO/ASO.
-- 🟡 **GATE 2B (BLOQUEADO):** Estrategia de Producto (`@cpo`) y Funnel (`@cmo`) se activarán tras definir el Naming comercial.
-- 🔵 **GATE 3 (BLOQUEADO):** UX/UI (`@ux-designer`), Contenidos (`@content-lead`) y Visual Assets ASO (`@seo-specialist`).
-- 🟢 **GATE 4 (BLOQUEADO):** Desarrollo App (`@cto`), Landing (`@web-specialist`) y BigQuery (`@api-integration-specialist`).
+- ✅ **GATE 1 (COMPLETADO Y APROBADO):** `@feasibility-analyst` completó estudio en `projects/nclex-prep-hispanos/feasibility-study.md` (VIABLE. LTV:CAC 4.29x).
+- ✅ **GATE 2A (COMPLETADO Y APROBADO):** `@seo-specialist` investigó clúster de palabras clave en `projects/nclex-prep-hispanos/funnel/seo-keywords-research.md` (48,500 búsquedas/mes).
+- ✅ **GATE 2B (COMPLETADO Y APROBADO):** `@content-lead` definió Naming comercial oficial `SimuNCLEX Bilingüe` en `projects/nclex-prep-hispanos/funnel/brand-and-naming.md`.
+- ✅ **GATE 2B.1 (COMPLETADO Y APROBADO):** `@macro-analyst` completó análisis PESTEL y precios en `projects/nclex-prep-hispanos/macro-analysis.md`.
+- ✅ **GATE 2C (COMPLETADO Y APROBADO):** `@seo-specialist` diseñó la arquitectura SEO transaccional en `projects/nclex-prep-hispanos/funnel/seo-transactional-architecture.md`.
+- 🔍 **GATE 2D (EN REVISIÓN C-LEVEL):** `@seo-specialist` creó propuesta de dominio (`simunclex.com`, `simunclex.app`) en `projects/nclex-prep-hispanos/funnel/domain-strategy.md` (Pendiente Visto Bueno de `@cmo` / `@ceo`).
+- 🟡 **GATE 2E (BLOQUEADO POR 2D):** `@ux-designer` asignado a `TASK-BRAND-01` para crear Paleta HSL, Tipografía & UI Tokens en `projects/nclex-prep-hispanos/funnel/design-system-and-branding.md`.
 
-## 📢 Directriz Inmediata del CEO
-- **@seo-specialist:** Tienes la estafeta activa en `projects/nclex-prep-hispanos/kanban-board.md` (`TASK-SEO-01`). Procede a investigar volúmenes de búsqueda en EE. UU., Puerto Rico y LATAM para los términos ("NCLEX RN en español", "simulador NCLEX", "enfermería USA") y propón la estrategia de Naming comercial oficial para la app.
+## 📢 Directrices Inmediatas del CEO
+1. **Gobernanza Kanban (@project-admin):** Auditar que la tarea `[TASK-DOMAIN-01]` esté correctamente en estado `En Revisión` y que la documentación física en markdown esté intacta.
+2. **Revisión Executive (@cmo / @ceo):** El CMO debe evaluar la estrategia de portafolio de dominios y otorgar el visto bueno oficial para pasar la tarea a `Completado (Done)`.
+3. **Despliegue Operativo (@ux-designer):** Una vez aprobado el dominio, el UX/UI Designer debe iniciar la Etapa 2E para especificar la paleta de colores HSL, tipografías e identidad visual del simulador.
+
 
 
 
