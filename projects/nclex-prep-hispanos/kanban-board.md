@@ -53,7 +53,7 @@
 
 ---
 
-### 🟢 ETAPA 2E: PALETA DE COLORES & BRANDING (GATE 2E - ACTIVO / EN EJECUCIÓN)
+### 🟢 ETAPA 2E: PALETA DE COLORES & BRANDING (GATE 2E - 🔍 EN REVISIÓN CPO)
 - [/] `[TASK-BRAND-01]` **Sistema de Diseño, Paleta de Colores & UI Tokens:** Definir colores HSL/Hex, tipografías y estética.  
   - **Asignado a:** `@ux-designer`  
   - **Revisar por:** `@cpo`  
@@ -111,13 +111,14 @@
 
 ## 🏃 3. En Progreso (In Progress)
 
-- [/] `[TASK-BRAND-01]` **Sistema de Diseño, Paleta de Colores & UI Tokens:** Definir colores HSL/Hex, tipografías y estética en `projects/nclex-prep-hispanos/funnel/design-system-and-branding.md`. (Asignado a `@ux-designer`)
+*(Sin tareas activas actualmente en progreso)*
 
 ---
 
 ## 🔍 4. En Revisión (In Review)
 
-*(Sin tareas actualmente en revisión)*
+- [/] `[TASK-BRAND-01]` **Sistema de Diseño, Paleta de Colores & UI Tokens:** Especificación de tokens HSL, escala Outfit/Inter y componentes en `projects/nclex-prep-hispanos/funnel/design-system-and-branding.md`. (Asignado a `@ux-designer`, Pendiente visto bueno de `@cpo`)
+
 
 ---
 
