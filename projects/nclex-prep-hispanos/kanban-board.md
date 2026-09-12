@@ -78,10 +78,10 @@
 
 ---
 
-### 🔵 ETAPA 3B: FUNNEL DE MARKETING (GATE 3B - 🔍 EN REVISIÓN CMO / CEO)
-- [/] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU:** Diseñar las etapas de captación, ofertas y secuencias.  
+### 🔵 ETAPA 3B: FUNNEL DE MARKETING (GATE 3B - 🔄 REELABORACIÓN EN PROGRESO)
+- [/] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU:** Diseñar las etapas de captación paso a paso (Ads Advantage+, Retargeting, Landing/PlayStore, Emailing, Freemium y Paywall).  
   - **Asignado a:** `@cmo`  
-  - **Revisar por:** `@cmo` / `@ceo`  
+  - **Revisar por:** `@ceo` & Christian  
   - **Entregable Persistido:** `projects/nclex-prep-hispanos/funnel/marketing-funnel.md`  
 
 ---
@@ -112,13 +112,14 @@
 
 ## 🏃 3. En Progreso (In Progress)
 
-*(Sin tareas activas actualmente en progreso)*
+- [/] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU:** Re-escritura paso a paso ultra-detallada (Ads Advantage+, Retargeting Video 50%, Landing/PlayStore, Emailing condicional, Freemium y Paywall) en `projects/nclex-prep-hispanos/funnel/marketing-funnel.md`. (Asignado a `@cmo`)
 
 ---
 
 ## 🔍 4. En Revisión (In Review)
 
-- [/] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU:** Estrategia TOFU-MOFU-BOFU, lead magnet PDF y email nurturing de 7 días en `projects/nclex-prep-hispanos/funnel/marketing-funnel.md`. (Asignado a `@cmo`, Pendiente visto bueno de `@cmo` / `@ceo`)
+*(Sin tareas actualmente en revisión)*
+
 
 
 ---
