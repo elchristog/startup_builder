@@ -78,7 +78,7 @@
 
 ---
 
-### 🔵 ETAPA 3B: FUNNEL DE MARKETING (GATE 3B - 🔄 REELABORACIÓN EN PROGRESO)
+### 🔵 ETAPA 3B: FUNNEL DE MARKETING (GATE 3B - 🔍 EN REVISIÓN C-LEVEL / DIRECTIVA 20)
 - [/] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU:** Diseñar las etapas de captación paso a paso (Ads Advantage+, Retargeting, Landing/PlayStore, Emailing, Freemium y Paywall).  
   - **Asignado a:** `@cmo`  
   - **Revisar por:** `@ceo` & Christian  
@@ -112,13 +112,14 @@
 
 ## 🏃 3. En Progreso (In Progress)
 
-- [/] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU:** Re-escritura paso a paso ultra-detallada (Ads Advantage+, Retargeting Video 50%, Landing/PlayStore, Emailing condicional, Freemium y Paywall) en `projects/nclex-prep-hispanos/funnel/marketing-funnel.md`. (Asignado a `@cmo`)
+*(Sin tareas activas actualmente en progreso)*
 
 ---
 
 ## 🔍 4. En Revisión (In Review)
 
-*(Sin tareas actualmente en revisión)*
+- [/] `[TASK-MKT-01]` **Definición del Funnel de Marketing TOFU-MOFU-BOFU (Directiva 20):** Especificación hiperdetallada de 6 pasos (Meta Ads Advantage+, Custom Audience Video 50%, Play Store Deep Link `simunclex.app`, Email/Push matrix, Freemium 10Q y Paywall Premium) en `projects/nclex-prep-hispanos/funnel/marketing-funnel.md`. (Asignado a `@cmo`, Pendiente visto bueno de `@ceo` & Christian)
+
 
 
 
